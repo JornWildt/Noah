@@ -13,8 +13,9 @@ namespace Noah.Service
     public static BotHandle NoahBotHandle { get; protected set; }
 
 
+
     public NoahService(IWindsorContainer container, bool doRunWebHost)
-      : base(container, doRunWebHost)
+      : base(container, NoahServiceSettings.GameLoopPeriod, doRunWebHost)
     {
     }
 

@@ -50,8 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntityFactories\WeatherFactory.cs" />
     <Compile Include="NoahInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Randomizer.cs" />
+    <Compile Include="Weather\WeatherComponent.cs" />
+    <Compile Include="Weather\WeatherSystem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

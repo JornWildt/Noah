@@ -1,5 +1,6 @@
 ﻿using CuttingEdge.Conditions;
 using Elfisk.ECS.Core;
+using Noah.Blueprint.EntityFactories;
 
 namespace Noah.Blueprint
 {
@@ -9,8 +10,7 @@ namespace Noah.Blueprint
     {
       Condition.Requires(entities, nameof(entities)).IsNotNull();
 
-      //Entity player = PlayerFactory.BuildPlayer("Borg");
-      //entities.AddEntity(player);
+      entities.AddEntity(WeatherFactory.BuildWeather());
     }
   }
 }

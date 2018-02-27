@@ -116,6 +116,7 @@
     <Compile Include="NoahBotEnvironment.cs" />
     <Compile Include="NoahServer.cs" />
     <Compile Include="NoahService.cs" />
+    <Compile Include="NoahServiceSettings.cs" />
     <Compile Include="OwinStartup.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
