@@ -1,0 +1,12 @@
+[submodule "Elfisk.Commons"]
+	path = Elfisk/Elfisk.Commons
+	url = https://github.com/JornWildt/Elfisk.Commons
+
+[submodule "Elfisk.ECS"]
+	path = Elfisk/Elfisk.ECS
+	url = https://github.com/JornWildt/Elfisk.ECS
+
+[submodule "ZimmerBot"]
+	path = ZimmerBot
+	url = https://github.com/JornWildt/ZimmerBot
+        

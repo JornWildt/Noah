@@ -23,6 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -126,10 +127,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ZimmerBot\ZimmerBot.Core\ZimmerBot.Core.csproj">
-      <Project>{8ec30ae6-170e-4621-ae14-4a3985e3d062}</Project>
-      <Name>ZimmerBot.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Elfisk\Elfisk.Commons\Elfisk.Commons.csproj">
       <Project>{4bcfa333-8a2c-4726-9da5-33174b4e7309}</Project>
       <Name>Elfisk.Commons</Name>
@@ -145,6 +142,10 @@
     <ProjectReference Include="..\Noah.Blueprint\Noah.Blueprint.csproj">
       <Project>{affb8d43-3ef9-40eb-9b70-70d38ff4a021}</Project>
       <Name>Noah.Blueprint</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZimmerBot\ZimmerBot.Core\ZimmerBot.Core.csproj">
+      <Project>{8ec30ae6-170e-4621-ae14-4a3985e3d062}</Project>
+      <Name>ZimmerBot.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
