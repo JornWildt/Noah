@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Elfisk.Commons;
 using Microsoft.AspNet.SignalR.Client;
+using Noah.Common;
 
 namespace Noah.Console
 {
@@ -14,19 +11,19 @@ namespace Noah.Console
 
     static HubConnection ServerConnection { get; set; }
 
-    static IHubProxy MessageHub { get; set; }
+    static IHubProxy<IServerHub,IClientContract> MessageHub { get; set; }
 
 
     static void Main(string[] args)
     {
-      ConsoleApp().GetAwaiter().GetResult();
+      AsyncMain().GetAwaiter().GetResult();
     }
 
 
-    static async Task ConsoleApp()
+    static async Task AsyncMain()
     {
       await Initialize();
-      await Run();
+      Run();
       Shutdown();
     }
 
@@ -34,14 +31,13 @@ namespace Noah.Console
     static async Task Initialize()
     {
       ServerConnection = new HubConnection(ClientUrl);
-      MessageHub = ServerConnection.CreateHubProxy("MessageHub");
-
-      MessageHub.On<string>("NewMessage", HandleNewMessage);
+      MessageHub = ServerConnection.CreateHubProxy<IServerHub, IClientContract>("MessageHub");
+      MessageHub.SubscribeOn<string>(hub => hub.NewMessage, HandleNewMessage);
       await ServerConnection.Start();
     }
 
 
-    static async Task Run()
+    static void Run()
     {
       string input;
 
@@ -53,17 +49,10 @@ namespace Noah.Console
 
         if (!string.IsNullOrEmpty(input))
         {
-          await MessageHub.Invoke("Say", input);
+          MessageHub.Call(hub => hub.Say(input));
         }
       }
       while (!string.IsNullOrEmpty(input));
-    }
-
-
-    static void Shutdown()
-    {
-      ServerConnection.Stop();
-      ServerConnection.Dispose();
     }
 
 
@@ -71,6 +60,13 @@ namespace Noah.Console
     {
       System.Console.WriteLine(text);
       System.Console.Write("> ");
+    }
+
+
+    static void Shutdown()
+    {
+      ServerConnection.Stop();
+      ServerConnection.Dispose();
     }
   }
 }

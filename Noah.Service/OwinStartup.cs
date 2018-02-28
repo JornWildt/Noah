@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Owin;
 using System.Web.Http;
+using Microsoft.AspNet.SignalR;
+using Noah.Service.Hubs;
 
 namespace Noah.Service
 {
@@ -13,6 +15,8 @@ namespace Noah.Service
     public override void Configuration(IAppBuilder app)
     {
       base.Configuration(app);
+
+      GlobalHost.HubPipeline.AddModule(new ErrorHandlingPipelineModule());
 
       //// Configure Web API for self-host. 
       //HttpConfiguration config = new HttpConfiguration();

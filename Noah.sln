@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noah.Service", "Noah.Service\Noah.Service.csproj", "{D1C83C12-A2C5-4F9D-8FF2-5DB264BC27E7}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elfisk.ECS.Service", "Elfisk\Elfisk.ECS\Elfisk.ECS.Service\Elfisk.ECS.Service.csproj", "{302E9443-5ED2-4F09-97E6-6D8B6945EED4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZimmerBot.Core", "ZimmerBot\ZimmerBot.Core\ZimmerBot.Core.csproj", "{8EC30AE6-170E-4621-AE14-4A3985E3D062}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noah.Common", "Noah.Common\Noah.Common.csproj", "{8F8D04FB-8DD6-4BC4-81BE-8830E7A0B435}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{8EC30AE6-170E-4621-AE14-4A3985E3D062}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EC30AE6-170E-4621-AE14-4A3985E3D062}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EC30AE6-170E-4621-AE14-4A3985E3D062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F8D04FB-8DD6-4BC4-81BE-8830E7A0B435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F8D04FB-8DD6-4BC4-81BE-8830E7A0B435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F8D04FB-8DD6-4BC4-81BE-8830E7A0B435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F8D04FB-8DD6-4BC4-81BE-8830E7A0B435}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
