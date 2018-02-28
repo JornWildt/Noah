@@ -35,7 +35,7 @@ namespace Noah.Service
 
       KnowledgeBase kb = new KnowledgeBase();
       kb.Initialize(initMode);
-      kb.LoadFromFiles("C:\\Projects\\MaxWeber\\BotSource");
+      kb.LoadFromFiles(NoahServiceSettings.BotSource);
       kb.SetupComplete();
 
       NoahBot = new Bot(kb);

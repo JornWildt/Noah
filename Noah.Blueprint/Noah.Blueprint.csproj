@@ -58,6 +58,12 @@
     <Compile Include="Weather\WeatherSystem.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="BotSource\concepter_basis.zbot" />
+    <None Include="BotSource\intentioner_basic.zbot" />
+    <None Include="BotSource\intentioner_du_dig.zbot" />
+    <None Include="BotSource\rdf.zbot" />
+    <None Include="BotSource\vejret.zbot" />
+    <None Include="BotSource\velkommen.zbot" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -69,6 +75,9 @@
       <Project>{e5ada543-2feb-404e-8f03-e66146c357c4}</Project>
       <Name>Elfisk.ECS.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BotSource\Facts\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

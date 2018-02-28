@@ -1,0 +1,29 @@
+﻿! rdf_prefix rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+! rdf_prefix rdfs "http://www.w3.org/2000/01/rdf-schema#"
+! rdf_prefix dcterms "http://purl.org/dc/terms/"
+! rdf_prefix foaf "http://xmlns.com/foaf/0.1/"
+! rdf_prefix gn "http://www.geonames.org/ontology#"
+
+! rdf_prefix zr "http://zimmerbot.org/resource/"
+! rdf_prefix zp "http://zimmerbot.org/property/"
+
+> show all rdf data
+! call RDF.Query("
+  select ?s ?p ?o
+  where
+  {
+    ?s ?p ?o
+  }")
+: <result:{r | <r.s>, <r.p>, <r.o> <\\n> }>.
+
+> show all rdf data about +
+! call RDF.Query("
+  select ?s ?p ?o
+  where
+  {
+    ?s ?p ?o.
+    ?s zp:knownby ?n.
+    FILTER (?n = @1)
+  }")
+: <result:{r | <r.s>, <r.p>, <r.o> <\\n> }>.
+
