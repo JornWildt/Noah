@@ -1,0 +1,56 @@
+﻿@{
+  ViewBag.Title = "Home Page";
+  var x = 1;
+}
+
+<div class="row" id="chat">
+  <div class="col-md-4">
+    <h2>Snak med mig</h2>
+    <div id="chatResponses">
+      <ul>
+        <li v-for="entry in responses">
+          {{ entry }}
+        </li>
+      </ul>
+    </div>
+    <div id="chatInput">
+      <input v-model="input" />
+      <button v-on:click="say">Say</button>
+    </div>
+  </div>
+</div>
+
+@section scripts
+{
+<script src="~/Scripts/jquery.signalR-2.2.2.min.js"></script>
+<script src="http://localhost:8080/signalr/hubs"></script>
+
+<script>
+  $(function () {
+    $.connection.hub.url = "http://localhost:8080/signalr";
+    var chatProxy = $.connection.messageHub;
+
+    var data =
+    {
+      input: "Hej",
+      responses: []
+    };
+
+    var app = new Vue(
+    {
+      el: "#chat",
+      data: data,
+      methods: {
+        say: function (event) {
+          chatProxy.server.say(this.input);
+        }
+      }
+    });
+
+    chatProxy.client.newMessage = function (text) {
+      data.responses.push(text);
+    };
+    $.connection.hub.start();
+  });
+</script>
+}

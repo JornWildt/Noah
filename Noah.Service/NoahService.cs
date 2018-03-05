@@ -12,11 +12,13 @@ namespace Noah.Service
 
     public static BotHandle NoahBotHandle { get; protected set; }
 
+    protected bool DoClearStore { get; set; }
 
 
-    public NoahService(IWindsorContainer container, bool doRunWebHost)
+    public NoahService(IWindsorContainer container, bool doRunWebHost, bool doClearStore)
       : base(container, NoahServiceSettings.GameLoopPeriod, doRunWebHost)
     {
+      DoClearStore = doClearStore;
     }
 
 
@@ -31,7 +33,9 @@ namespace Noah.Service
     {
       ZimmerBotConfiguration.Initialize();
 
-      KnowledgeBase.InitializationMode initMode = KnowledgeBase.InitializationMode.RestoreIfExists;
+      KnowledgeBase.InitializationMode initMode = DoClearStore
+        ? KnowledgeBase.InitializationMode.Clear
+        : KnowledgeBase.InitializationMode.RestoreIfExists;
 
       KnowledgeBase kb = new KnowledgeBase();
       kb.Initialize(initMode);
