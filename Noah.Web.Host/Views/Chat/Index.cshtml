@@ -1,7 +1,7 @@
 ﻿@model Noah.Web.Models.ChatModel
 
 @{
-  ViewBag.Title = "Chat";
+  ViewBag.Title = "Sig hej til Noah";
 }
 
 <div class="row" id="chat">
@@ -9,8 +9,8 @@
     <h2>Snak med mig</h2>
     <div id="chatResponses">
       <ul>
-        <li v-for="entry in responses">
-          {{ entry }}
+        <li v-for="entry in chatEntries">
+          {{ entry.text }}
         </li>
       </ul>
     </div>

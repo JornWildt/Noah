@@ -1,13 +1,11 @@
-﻿
-
-$(function () {
-  $.connection.hub.url = "http://localhost:8080/signalr";
+﻿$(function () {
+  $.connection.hub.url = ServerBaseUrl;
   var chatProxy = $.connection.messageHub;
 
   var data =
   {
     input: "Hej",
-    responses: []
+    chatEntries: []
   };
 
   var app = new Vue(
@@ -22,7 +20,17 @@ $(function () {
   });
 
   chatProxy.client.newMessage = function (text) {
-    data.responses.push(text);
+    AddChatEntry(data, text, 'left');
   };
   $.connection.hub.start();
 });
+
+
+function AddChatEntry(data, text, position) {
+  var entry =
+    {
+      text: text,
+      position: position
+    };
+  data.chatEntries.push(entry);
+}
