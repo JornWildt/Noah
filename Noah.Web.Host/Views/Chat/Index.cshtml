@@ -1,0 +1,32 @@
+﻿@model Noah.Web.Models.ChatModel
+
+@{
+  ViewBag.Title = "Chat";
+}
+
+<div class="row" id="chat">
+  <div class="col-md-4">
+    <h2>Snak med mig</h2>
+    <div id="chatResponses">
+      <ul>
+        <li v-for="entry in responses">
+          {{ entry }}
+        </li>
+      </ul>
+    </div>
+    <div id="chatInput">
+      <input v-model="input" />
+      <button v-on:click="say">Say</button>
+    </div>
+  </div>
+</div>
+
+@section scripts
+{
+<script>
+  var ServerBaseUrl = "@Model.ServerUrl";
+</script>
+<script src="~/Scripts/jquery.signalR-2.2.2.min.js"></script>
+<script src="@Model.ServerHubUrl"></script>
+<script src="~/Scripts/Noah/chat.js"></script>
+}
