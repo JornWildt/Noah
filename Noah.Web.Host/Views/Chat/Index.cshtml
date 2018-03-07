@@ -4,19 +4,29 @@
   ViewBag.Title = "Sig hej til Noah";
 }
 
-<div class="row" id="chat">
+<div class="row">
   <div class="col-md-4">
     <h2>Snak med mig</h2>
-    <div id="chatResponses">
-      <ul>
-        <li v-for="entry in chatEntries">
-          {{ entry.text }}
-        </li>
-      </ul>
-    </div>
-    <div id="chatInput">
-      <input v-model="input" />
-      <button v-on:click="say">Say</button>
+    <div class="chat" id="chat">
+      <div class="chat-header">
+        <div class="chat-with">Chat med Noah</div>
+        <div class="chat-with-details">Info om Noah ...</div>
+      </div>
+      <div class="chat-history">
+        <ul v-chat-scroll>
+          <li v-for="entry in chatEntries" v-bind:class="entry.position">
+            <div class="message-header">
+              <span class="message-time">{{entry.date}}</span>
+              <span class="message-name">{{entry.name}}</span>
+            </div>
+            <div class="message-text">{{ entry.text }}</div>
+          </li>
+        </ul>
+      </div>
+      <div class="chat-input">
+        <textarea v-model="input"></textarea>
+        <button v-on:click="say">Send</button>
+      </div>
     </div>
   </div>
 </div>

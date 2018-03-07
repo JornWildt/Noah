@@ -10,3 +10,4 @@
 /// <reference path="noah/chat.js" />
 /// <reference path="respond.min.js" />
 /// <reference path="vue.min.js" />
+/// <reference path="vue-chat-scroll.js" />

@@ -1,24 +1,126 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+/*****************************************/
+
+* {
+  box-sizing: border-box;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+.chat {
+  width: 600px;
+  border: 1px solid black;
+  background: #F2F5F8;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #434651;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.chat .chat-header {
+  padding: 20px;
+  border-bottom: 2px solid white;
+}
+
+  
+.chat .chat-about {
+  float: left;
+  padding-left: 10px;
+  margin-top: 6px;
+}
+    
+.chat .chat-with {
+  font-weight: bold;
+  font-size: 16px;
+}
+    
+.chat .chat-num-messages {
+  color: #92959E;
+}
+
+.chat .chat-history {
+  border-bottom: 2px solid white;
+}
+
+.chat ul {
+  list-style: none;
+  padding: 30px 30px 20px;
+  overflow-y: scroll;
+  height: 300px;
+}
+
+.chat li {
+  padding: 0;
+  margin: 0;
+  display: list-item;
+}
+
+.chat .message-header {
+  margin-bottom: 5px;
+  clear: both;
+}
+    
+.chat .left .message-header {
+  text-align: left;
+}
+    
+.chat .right .message-header {
+  text-align: right;
+}
+    
+.chat .message-time {
+  color: #92959E;
+  padding-left: 6px;
+}
+
+.chat .message-name {
+  padding-left: 6px;
+}
+
+.chat .message-text {
+  color: white;
+  padding: 10px 10px;
+  line-height: 15px;
+  font-size: 14px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  width: 90%;
+  position: relative;
+}
+
+.chat .left .message-text {
+  background: #86BB71;
+  float: left;
+}
+
+.chat .right .message-text {
+  background: #94C2ED;
+  float: right;
+}
+
+.chat .chat-input {
+  clear: both;
+  padding: 30px;
+}
+
+.chat .chat-input textarea {
+  width: 100%;
+  border: none;
+  padding: 10px 20px;
+  font: 14px/22px "Lato", Arial, sans-serif;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  resize: none;     
+}
+
+.chat .chat-input button {
+  float: right;
+  color: #94C2ED;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #F2F5F8;
 }
