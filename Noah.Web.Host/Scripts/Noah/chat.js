@@ -17,6 +17,7 @@
         AddMyChatEntry(data, this.input);
         chatProxy.server.say(this.input);
         this.input = "";
+        SetFocusInInput();
       }
     }
   });
@@ -25,12 +26,13 @@
     AddChatEntry(data, args.Name, args.Timestamp, args.Message, 'left');
   };
   $.connection.hub.start();
+  SetFocusInInput();
 });
 
 
 function AddMyChatEntry(data, input)
 {
-  AddChatEntry(data, "Jørn", "Nu", input, "right");
+  AddChatEntry(data, "Jørn", new Date(), input, "right");
 }
 
 
@@ -38,9 +40,13 @@ function AddChatEntry(data, name, date, text, position) {
   var entry =
     {
       name: name,
-      date: date,
+      date: moment(date),
       text: text,
       position: position
     };
   data.chatEntries.push(entry);
+}
+
+function SetFocusInInput() {
+  $("#chatInput").focus();
 }

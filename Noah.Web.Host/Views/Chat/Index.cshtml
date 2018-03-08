@@ -16,7 +16,7 @@
         <ul v-chat-scroll>
           <li v-for="entry in chatEntries" v-bind:class="entry.position">
             <div class="message-header">
-              <span class="message-time">{{entry.date}}</span>
+              <span class="message-time">{{entry.date.calendar()}}</span>
               <span class="message-name">{{entry.name}}</span>
             </div>
             <div class="message-text">{{ entry.text }}</div>
@@ -24,7 +24,7 @@
         </ul>
       </div>
       <div class="chat-input">
-        <textarea v-model="input"></textarea>
+        <textarea v-model="input" id="chatInput"></textarea>
         <button v-on:click="say">Send</button>
       </div>
     </div>
@@ -38,5 +38,6 @@
 </script>
 <script src="~/Scripts/jquery.signalR-2.2.2.min.js"></script>
 <script src="@Model.ServerHubUrl"></script>
+<script src="~/Scripts/moment.min.js"></script>
 <script src="~/Scripts/Noah/chat.js"></script>
 }
