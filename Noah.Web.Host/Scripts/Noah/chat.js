@@ -14,9 +14,11 @@
     data: data,
     methods: {
       say: function (event) {
-        AddMyChatEntry(data, this.input);
-        chatProxy.server.say(this.input);
-        this.input = "";
+        if (this.input) {
+          AddMyChatEntry(data, this.input);
+          chatProxy.server.say(this.input);
+          this.input = "";
+        }
         SetFocusInInput();
       }
     }
