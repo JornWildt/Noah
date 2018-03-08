@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using log4net;
+using Noah.Common;
 using ZimmerBot.Core;
 
 namespace Noah.Service
@@ -18,7 +19,15 @@ namespace Noah.Service
       try
       {
         foreach (string output in response.Output)
-          NoahServer.Instance.SendMessage(output);
+        {
+          NewMessageArgs args = new NewMessageArgs
+          {
+            Timestamp = DateTime.Now,
+            Name = "Noah",
+            Message = output
+          };
+          NoahServer.Instance.SendMessage(args);
+        }
       }
       catch (Exception ex)
       {

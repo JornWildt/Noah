@@ -26,9 +26,9 @@ namespace Noah.Service
     }
 
 
-    public void SendMessage(string text)
+    public void SendMessage(NewMessageArgs args)
     {
-      Instance.Clients.All.NewMessage(text);
+      Instance.Clients.All.NewMessage(args);
     }
   }
 }

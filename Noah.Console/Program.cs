@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using Elfisk.Commons;
 using Microsoft.AspNet.SignalR.Client;
 using Noah.Common;
@@ -32,7 +33,7 @@ namespace Noah.Console
     {
       ServerConnection = new HubConnection(ClientUrl);
       MessageHub = ServerConnection.CreateHubProxy<IServerHub, IClientContract>("MessageHub");
-      MessageHub.SubscribeOn<string>(hub => hub.NewMessage, HandleNewMessage);
+      MessageHub.SubscribeOn<NewMessageArgs>(hub => hub.NewMessage, HandleNewMessage);
       await ServerConnection.Start();
     }
 
@@ -56,9 +57,9 @@ namespace Noah.Console
     }
 
 
-    static void HandleNewMessage(string text)
+    static void HandleNewMessage(NewMessageArgs args)
     {
-      System.Console.WriteLine(text);
+      System.Console.WriteLine($"[{args.Timestamp}] {args.Name} > {args.Message}");
       System.Console.Write("> ");
     }
 

@@ -14,18 +14,24 @@
     data: data,
     methods: {
       say: function (event) {
-        AddChatEntry(data, "Mig", "Nu", this.input, "right");
+        AddMyChatEntry(data, this.input);
         chatProxy.server.say(this.input);
         this.input = "";
       }
     }
   });
 
-  chatProxy.client.newMessage = function (text) {
-    AddChatEntry(data, "Noah", "Today", text, 'left');
+  chatProxy.client.newMessage = function (args) {
+    AddChatEntry(data, args.Name, args.Timestamp, args.Message, 'left');
   };
   $.connection.hub.start();
 });
+
+
+function AddMyChatEntry(data, input)
+{
+  AddChatEntry(data, "Jørn", "Nu", input, "right");
+}
 
 
 function AddChatEntry(data, name, date, text, position) {
