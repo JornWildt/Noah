@@ -50,10 +50,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EntityFactories\WeatherFactory.cs" />
+    <Compile Include="Weather\WeatherFactory.cs" />
     <Compile Include="NoahInitializer.cs" />
+    <Compile Include="Noah\NoahComponent.cs" />
+    <Compile Include="Noah\NoahFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Randomizer.cs" />
+    <Compile Include="Scheduler\IScheduledJob.cs" />
+    <Compile Include="Scheduler\ScheduledComponent.cs" />
+    <Compile Include="Scheduler\SchedulerSystem.cs" />
     <Compile Include="Weather\WeatherComponent.cs" />
     <Compile Include="Weather\WeatherSystem.cs" />
   </ItemGroup>
