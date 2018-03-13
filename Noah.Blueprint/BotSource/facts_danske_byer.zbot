@@ -1,0 +1,1125 @@
+! define (by, sted)
+{
+  "Allerød":
+    sted: <Danmark>.
+  "Allinge":
+    sted: <Danmark>.
+  "Allingåbro":
+    sted: <Danmark>.
+  "Almind":
+    sted: <Danmark>.
+  "Anholt":
+    sted: <Danmark>.
+  "Ans by":
+    sted: <Danmark>.
+  "Ansager":
+    sted: <Danmark>.
+  "Arden":
+    sted: <Danmark>.
+  "Askeby":
+    sted: <Danmark>.
+  "Asnæs":
+    sted: <Danmark>.
+  "Asperup":
+    sted: <Danmark>.
+  "Assens":
+    sted: <Danmark>.
+  "Asaa":
+    sted: <Danmark>.
+  "Augustenborg":
+    sted: <Danmark>.
+  "Aulum":
+    sted: <Danmark>.
+  "Auning":
+    sted: <Danmark>.
+  "Bagenkop":
+    sted: <Danmark>.
+  "Bagsværd":
+    sted: <Danmark>.
+  "Balle":
+    sted: <Danmark>.
+  "Ballerup":
+    sted: <Danmark>.
+  "Bandholm":
+    sted: <Danmark>.
+  "Barrit":
+    sted: <Danmark>.
+  "Beder":
+    sted: <Danmark>.
+  "Bedsted Thy":
+    sted: <Danmark>.
+  "Bevtoft":
+    sted: <Danmark>.
+  "Billum":
+    sted: <Danmark>.
+  "Billund":
+    sted: <Danmark>.
+  "Bindslev":
+    sted: <Danmark>.
+  "Birkerød":
+    sted: <Danmark>.
+  "Bjerringbro":
+    sted: <Danmark>.
+  "Bjert":
+    sted: <Danmark>.
+  "Bjæverskov":
+    sted: <Danmark>.
+  "Blokhus":
+    sted: <Danmark>.
+  "Blommenslyst":
+    sted: <Danmark>.
+  "Blåvand":
+    sted: <Danmark>.
+  "Boeslunde":
+    sted: <Danmark>.
+  "Bogense":
+    sted: <Danmark>.
+  "Bogø By":
+    sted: <Danmark>.
+  "Bolderslev":
+    sted: <Danmark>.
+  "Bording":
+    sted: <Danmark>.
+  "Borre":
+    sted: <Danmark>.
+  "Borup":
+    sted: <Danmark>.
+  "Brabrand":
+    sted: <Danmark>.
+  "Bramming":
+    sted: <Danmark>.
+  "Brande":
+    sted: <Danmark>.
+  "Branderup":
+    sted: <Danmark>.
+  "Bredebro":
+    sted: <Danmark>.
+  "Bredsten":
+    sted: <Danmark>.
+  "Brenderup":
+    sted: <Danmark>.
+  "Broager":
+    sted: <Danmark>.
+  "Broby":
+    sted: <Danmark>.
+  "Brovst":
+    sted: <Danmark>.
+  "Bryrup":
+    sted: <Danmark>.
+  "Brædstrup":
+    sted: <Danmark>.
+  "Brøndby":
+    sted: <Danmark>.
+  "Brøndby Strand":
+    sted: <Danmark>.
+  "Brønderslev":
+    sted: <Danmark>.
+  "Brønshøj":
+    sted: <Danmark>.
+  "Brørup":
+    sted: <Danmark>.
+  "Bylderup-Bov":
+    sted: <Danmark>.
+  "Bække":
+    sted: <Danmark>.
+  "Bækmarksbro":
+    sted: <Danmark>.
+  "Bælum":
+    sted: <Danmark>.
+  "Børkop":
+    sted: <Danmark>.
+  "Bøvlingbjerg":
+    sted: <Danmark>.
+  "Charlottenlund":
+    sted: <Danmark>.
+  "Christiansfeld":
+    sted: <Danmark>.
+  "Dalby":
+    sted: <Danmark>.
+  "Dalmose":
+    sted: <Danmark>.
+  "Dannemare":
+    sted: <Danmark>.
+  "Daugård":
+    sted: <Danmark>.
+  "Dianalund":
+    sted: <Danmark>.
+  "Dragør":
+    sted: <Danmark>.
+  "Dronninglund":
+    sted: <Danmark>.
+  "Dronningmølle":
+    sted: <Danmark>.
+  "Dybvad":
+    sted: <Danmark>.
+  "Ebberup":
+    sted: <Danmark>.
+  "Ebeltoft":
+    sted: <Danmark>.
+  "Egernsund":
+    sted: <Danmark>.
+  "Egtved":
+    sted: <Danmark>.
+  "Egå":
+    sted: <Danmark>.
+  "Ejby":
+    sted: <Danmark>.
+  "Ejstrupholm":
+    sted: <Danmark>.
+  "Engesvang":
+    sted: <Danmark>.
+  "Errindlev":
+    sted: <Danmark>.
+  "Erslev":
+    sted: <Danmark>.
+  "Esbjerg":
+    sted: <Danmark>.
+  "Eskebjerg":
+    sted: <Danmark>.
+  "Eskilstrup":
+    sted: <Danmark>.
+  "Espergærde":
+    sted: <Danmark>.
+  "Fakse":
+    sted: <Danmark>.
+  "Fakse Ladeplads":
+    sted: <Danmark>.
+  "Fanø":
+    sted: <Danmark>.
+  "Farsø":
+    sted: <Danmark>.
+  "Farum":
+    sted: <Danmark>.
+  "Fejø":
+    sted: <Danmark>.
+  "Ferritslev Fyn":
+    sted: <Danmark>.
+  "Fjenneslev":
+    sted: <Danmark>.
+  "Fjerritslev":
+    sted: <Danmark>.
+  "Flemming":
+    sted: <Danmark>.
+  "Fredensborg":
+    sted: <Danmark>.
+  "Fredericia":
+    sted: <Danmark>.
+  "Frederiksberg":
+    sted: <Danmark>.
+  "Frederikshavn":
+    sted: <Danmark>.
+  "Frederikssund":
+    sted: <Danmark>.
+  "Frederiksværk":
+    sted: <Danmark>.
+  "Frørup":
+    sted: <Danmark>.
+  "Frøstrup":
+    sted: <Danmark>.
+  "Fuglebjerg":
+    sted: <Danmark>.
+  "Fur":
+    sted: <Danmark>.
+  "Føllenslev":
+    sted: <Danmark>.
+  "Føvling":
+    sted: <Danmark>.
+  "Faaborg":
+    sted: <Danmark>.
+  "Fårevejle":
+    sted: <Danmark>.
+  "Fårup":
+    sted: <Danmark>.
+  "Fårvang":
+    sted: <Danmark>.
+  "Gadbjerg":
+    sted: <Danmark>.
+  "Gadstrup":
+    sted: <Danmark>.
+  "Galten":
+    sted: <Danmark>.
+  "Gandrup":
+    sted: <Danmark>.
+  "Gedser":
+    sted: <Danmark>.
+  "Gedsted":
+    sted: <Danmark>.
+  "Gedved":
+    sted: <Danmark>.
+  "Gelsted":
+    sted: <Danmark>.
+  "Gentofte":
+    sted: <Danmark>.
+  "Gesten":
+    sted: <Danmark>.
+  "Gilleleje":
+    sted: <Danmark>.
+  "Gislev":
+    sted: <Danmark>.
+  "Gislinge":
+    sted: <Danmark>.
+  "Gistrup":
+    sted: <Danmark>.
+  "Give":
+    sted: <Danmark>.
+  "Gjerlev":
+    sted: <Danmark>.
+  "Gjern":
+    sted: <Danmark>.
+  "Glamsbjerg":
+    sted: <Danmark>.
+  "Glejbjerg":
+    sted: <Danmark>.
+  "Glesborg":
+    sted: <Danmark>.
+  "Glostrup":
+    sted: <Danmark>.
+  "Glumsø":
+    sted: <Danmark>.
+  "Gram":
+    sted: <Danmark>.
+  "Gredstedbro":
+    sted: <Danmark>.
+  "Grenaa":
+    sted: <Danmark>.
+  "Greve":
+    sted: <Danmark>.
+  "Greve Strand":
+    sted: <Danmark>.
+  "Grevinge":
+    sted: <Danmark>.
+  "Grindsted":
+    sted: <Danmark>.
+  "Græsted":
+    sted: <Danmark>.
+  "Gråsten":
+    sted: <Danmark>.
+  "Gudbjerg":
+    sted: <Danmark>.
+  "Gudhjem":
+    sted: <Danmark>.
+  "Gudme":
+    sted: <Danmark>.
+  "Guldborg":
+    sted: <Danmark>.
+  "Gørding":
+    sted: <Danmark>.
+  "Gørlev":
+    sted: <Danmark>.
+  "Gørløse":
+    sted: <Danmark>.
+  "Haderslev":
+    sted: <Danmark>.
+  "Haderup":
+    sted: <Danmark>.
+  "Hadsten":
+    sted: <Danmark>.
+  "Hadsund":
+    sted: <Danmark>.
+  "Hagersten":
+    sted: <Danmark>.
+  "Hals":
+    sted: <Danmark>.
+  "Hammel":
+    sted: <Danmark>.
+  "Hampen":
+    sted: <Danmark>.
+  "Hanstholm":
+    sted: <Danmark>.
+  "Harboøre":
+    sted: <Danmark>.
+  "Harlev":
+    sted: <Danmark>.
+  "Harndrup":
+    sted: <Danmark>.
+  "Harpelunde":
+    sted: <Danmark>.
+  "Hasle":
+    sted: <Danmark>.
+  "Haslev":
+    sted: <Danmark>.
+  "Hasselager":
+    sted: <Danmark>.
+  "Havdrup":
+    sted: <Danmark>.
+  "Havndal":
+    sted: <Danmark>.
+  "Hedehusene":
+    sted: <Danmark>.
+  "Hedensted":
+    sted: <Danmark>.
+  "Hejls":
+    sted: <Danmark>.
+  "Hejnsvig":
+    sted: <Danmark>.
+  "Hellebæk":
+    sted: <Danmark>.
+  "Hellerup":
+    sted: <Danmark>.
+  "Helsinge":
+    sted: <Danmark>.
+  "Helsingør":
+    sted: <Danmark>.
+  "Hemmet":
+    sted: <Danmark>.
+  "Henne":
+    sted: <Danmark>.
+  "Herfølge":
+    sted: <Danmark>.
+  "Herlev":
+    sted: <Danmark>.
+  "Herlufmagle":
+    sted: <Danmark>.
+  "Herning":
+    sted: <Danmark>.
+  "Hesselager":
+    sted: <Danmark>.
+  "Hillerød":
+    sted: <Danmark>.
+  "Hinnerup":
+    sted: <Danmark>.
+  "Hirtshals":
+    sted: <Danmark>.
+  "Hjallerup":
+    sted: <Danmark>.
+  "Hjerm":
+    sted: <Danmark>.
+  "Hjortshøj":
+    sted: <Danmark>.
+  "Hjørring":
+    sted: <Danmark>.
+  "Hobro":
+    sted: <Danmark>.
+  "Holbæk":
+    sted: <Danmark>.
+  "Holeby":
+    sted: <Danmark>.
+  "Holme-Olstrup":
+    sted: <Danmark>.
+  "Holstebro":
+    sted: <Danmark>.
+  "Holsted":
+    sted: <Danmark>.
+  "Holte":
+    sted: <Danmark>.
+  "Horbelev":
+    sted: <Danmark>.
+  "Hornbæk":
+    sted: <Danmark>.
+  "Hornslet":
+    sted: <Danmark>.
+  "Hornsyld":
+    sted: <Danmark>.
+  "Horsens":
+    sted: <Danmark>.
+  "Horslunde":
+    sted: <Danmark>.
+  "Hovborg":
+    sted: <Danmark>.
+  "Hovedgård":
+    sted: <Danmark>.
+  "Humble":
+    sted: <Danmark>.
+  "Humlebæk":
+    sted: <Danmark>.
+  "Hundested":
+    sted: <Danmark>.
+  "Hundslund":
+    sted: <Danmark>.
+  "Hurup Thy":
+    sted: <Danmark>.
+  "Hvalsø":
+    sted: <Danmark>.
+  "Hvide Sande":
+    sted: <Danmark>.
+  "Hvidovre":
+    sted: <Danmark>.
+  "Højbjerg":
+    sted: <Danmark>.
+  "Højby":
+    sted: <Danmark>.
+  "Højer":
+    sted: <Danmark>.
+  "Højslev":
+    sted: <Danmark>.
+  "Høng":
+    sted: <Danmark>.
+  "Hørning":
+    sted: <Danmark>.
+  "Hørsholm":
+    sted: <Danmark>.
+  "Hørve":
+    sted: <Danmark>.
+  "Haarby":
+    sted: <Danmark>.
+  "Hårlev":
+    sted: <Danmark>.
+  "Idestrup":
+    sted: <Danmark>.
+  "Ikast":
+    sted: <Danmark>.
+  "Ishøj":
+    sted: <Danmark>.
+  "Janderup":
+    sted: <Danmark>.
+  "Jelling":
+    sted: <Danmark>.
+  "Jerslev":
+    sted: <Danmark>.
+  "Jerslev":
+    sted: <Danmark>.
+  "Jerup":
+    sted: <Danmark>.
+  "Jordrup":
+    sted: <Danmark>.
+  "Juelsminde":
+    sted: <Danmark>.
+  "Jyderup":
+    sted: <Danmark>.
+  "Jyllinge":
+    sted: <Danmark>.
+  "Jystrup":
+    sted: <Danmark>.
+  "Jægerspris":
+    sted: <Danmark>.
+  "Kalundborg":
+    sted: <Danmark>.
+  "Kalvehave":
+    sted: <Danmark>.
+  "Karby":
+    sted: <Danmark>.
+  "Karise":
+    sted: <Danmark>.
+  "Karlslunde":
+    sted: <Danmark>.
+  "Karrebæksminde":
+    sted: <Danmark>.
+  "Karup":
+    sted: <Danmark>.
+  "Kastrup":
+    sted: <Danmark>.
+  "Kerteminde":
+    sted: <Danmark>.
+  "Kettinge":
+    sted: <Danmark>.
+  "Kibæk":
+    sted: <Danmark>.
+  "Kirke Eskilstrup":
+    sted: <Danmark>.
+  "Kirke Hyllinge":
+    sted: <Danmark>.
+  "Kirke Såby":
+    sted: <Danmark>.
+  "Kjellerup":
+    sted: <Danmark>.
+  "Klampenborg":
+    sted: <Danmark>.
+  "Klarup":
+    sted: <Danmark>.
+  "Klemensker":
+    sted: <Danmark>.
+  "Klippinge":
+    sted: <Danmark>.
+  "Klovborg":
+    sted: <Danmark>.
+  "Knebel":
+    sted: <Danmark>.
+  "Kokkedal":
+    sted: <Danmark>.
+  "Kolding":
+    sted: <Danmark>.
+  "Kolind":
+    sted: <Danmark>.
+  "Kongens Lyngby":
+    sted: <Danmark>.
+  "Kongerslev":
+    sted: <Danmark>.
+  "Korsør":
+    sted: <Danmark>.
+  "Kruså":
+    sted: <Danmark>.
+  "Kvistgård":
+    sted: <Danmark>.
+  "Kværndrup":
+    sted: <Danmark>.
+  "København":
+    sted: <Danmark>.
+  "Køge":
+    sted: <Danmark>.
+  "Langebæk":
+    sted: <Danmark>.
+  "Langeskov":
+    sted: <Danmark>.
+  "Langå":
+    sted: <Danmark>.
+  "Lejre":
+    sted: <Danmark>.
+  "Lem":
+    sted: <Danmark>.
+  "Lemming":
+    sted: <Danmark>.
+  "Lemvig":
+    sted: <Danmark>.
+  "Lille Skensved":
+    sted: <Danmark>.
+  "Lintrup":
+    sted: <Danmark>.
+  "Liseleje":
+    sted: <Danmark>.
+  "Lundby":
+    sted: <Danmark>.
+  "Lunderskov":
+    sted: <Danmark>.
+  "Lynge":
+    sted: <Danmark>.
+  "Lystrup":
+    sted: <Danmark>.
+  "Læsø":
+    sted: <Danmark>.
+  "Løgstrup":
+    sted: <Danmark>.
+  "Løgstør":
+    sted: <Danmark>.
+  "Løgumkloster":
+    sted: <Danmark>.
+  "Løkken":
+    sted: <Danmark>.
+  "Løsning":
+    sted: <Danmark>.
+  "Låsby":
+    sted: <Danmark>.
+  "Malling":
+    sted: <Danmark>.
+  "Mariager":
+    sted: <Danmark>.
+  "Maribo":
+    sted: <Danmark>.
+  "Marslev":
+    sted: <Danmark>.
+  "Marstal":
+    sted: <Danmark>.
+  "Martofte":
+    sted: <Danmark>.
+  "Melby":
+    sted: <Danmark>.
+  "Mern":
+    sted: <Danmark>.
+  "Mesinge":
+    sted: <Danmark>.
+  "Middelfart":
+    sted: <Danmark>.
+  "Millinge":
+    sted: <Danmark>.
+  "Morud":
+    sted: <Danmark>.
+  "Munke Bjergby":
+    sted: <Danmark>.
+  "Munkebo":
+    sted: <Danmark>.
+  "Møldrup":
+    sted: <Danmark>.
+  "Mørke":
+    sted: <Danmark>.
+  "Mørkøv":
+    sted: <Danmark>.
+  "Måløv":
+    sted: <Danmark>.
+  "Mårslet":
+    sted: <Danmark>.
+  "Nakskov":
+    sted: <Danmark>.
+  "Nexø":
+    sted: <Danmark>.
+  "Nibe":
+    sted: <Danmark>.
+  "Nimtofte":
+    sted: <Danmark>.
+  "Nivå":
+    sted: <Danmark>.
+  "Nordborg":
+    sted: <Danmark>.
+  "Nyborg":
+    sted: <Danmark>.
+  "Nykøbing F":
+    sted: <Danmark>.
+  "Nykøbing M":
+    sted: <Danmark>.
+  "Nykøbing Sj":
+    sted: <Danmark>.
+  "Nyrup":
+    sted: <Danmark>.
+  "Nysted":
+    sted: <Danmark>.
+  "Nærum":
+    sted: <Danmark>.
+  "Næstved":
+    sted: <Danmark>.
+  "Nørager":
+    sted: <Danmark>.
+  "Nørre Alslev":
+    sted: <Danmark>.
+  "Nørre Asmindrup":
+    sted: <Danmark>.
+  "Nørre Nebel":
+    sted: <Danmark>.
+  "Nørre Snede":
+    sted: <Danmark>.
+  "Nørre Aaby":
+    sted: <Danmark>.
+  "Nørreballe":
+    sted: <Danmark>.
+  "Nørresundby":
+    sted: <Danmark>.
+  "Odder":
+    sted: <Danmark>.
+  "Odense":
+    sted: <Danmark>.
+  "Oksbøl":
+    sted: <Danmark>.
+  "Otterup":
+    sted: <Danmark>.
+  "Oure":
+    sted: <Danmark>.
+  "Outrup":
+    sted: <Danmark>.
+  "Padborg":
+    sted: <Danmark>.
+  "Pandrup":
+    sted: <Danmark>.
+  "Præstø":
+    sted: <Danmark>.
+  "Randbøl":
+    sted: <Danmark>.
+  "Randers":
+    sted: <Danmark>.
+  "Ranum":
+    sted: <Danmark>.
+  "Rask Mølle":
+    sted: <Danmark>.
+  "Redsted":
+    sted: <Danmark>.
+  "Regstrup":
+    sted: <Danmark>.
+  "Ribe":
+    sted: <Danmark>.
+  "Ringe":
+    sted: <Danmark>.
+  "Ringkøbing":
+    sted: <Danmark>.
+  "Ringsted":
+    sted: <Danmark>.
+  "Risskov":
+    sted: <Danmark>.
+  "Roskilde":
+    sted: <Danmark>.
+  "Roslev":
+    sted: <Danmark>.
+  "Rude":
+    sted: <Danmark>.
+  "Rudkøbing":
+    sted: <Danmark>.
+  "Ruds Vedby":
+    sted: <Danmark>.
+  "Rungsted Kyst":
+    sted: <Danmark>.
+  "Ry":
+    sted: <Danmark>.
+  "Rynkeby":
+    sted: <Danmark>.
+  "Ryomgård":
+    sted: <Danmark>.
+  "Ryslinge":
+    sted: <Danmark>.
+  "Rødby":
+    sted: <Danmark>.
+  "Rødding":
+    sted: <Danmark>.
+  "Rødekro":
+    sted: <Danmark>.
+  "Rødkærsbro":
+    sted: <Danmark>.
+  "Rødovre":
+    sted: <Danmark>.
+  "Rødvig Stevns":
+    sted: <Danmark>.
+  "Rømø":
+    sted: <Danmark>.
+  "Rønde":
+    sted: <Danmark>.
+  "Rønne":
+    sted: <Danmark>.
+  "Rønnede":
+    sted: <Danmark>.
+  "Rørvig":
+    sted: <Danmark>.
+  "Sabro":
+    sted: <Danmark>.
+  "Sakskøbing":
+    sted: <Danmark>.
+  "Saltum":
+    sted: <Danmark>.
+  "Samsø":
+    sted: <Danmark>.
+  "Sandved":
+    sted: <Danmark>.
+  "Sejerø":
+    sted: <Danmark>.
+  "Silkeborg":
+    sted: <Danmark>.
+  "Sindal":
+    sted: <Danmark>.
+  "Sjællands Odde":
+    sted: <Danmark>.
+  "Sjølund":
+    sted: <Danmark>.
+  "Skagen":
+    sted: <Danmark>.
+  "Skals":
+    sted: <Danmark>.
+  "Skamby":
+    sted: <Danmark>.
+  "Skanderborg":
+    sted: <Danmark>.
+  "Skibby":
+    sted: <Danmark>.
+  "Skive":
+    sted: <Danmark>.
+  "Skjern":
+    sted: <Danmark>.
+  "Skodsborg":
+    sted: <Danmark>.
+  "Skovlunde":
+    sted: <Danmark>.
+  "Skælskør":
+    sted: <Danmark>.
+  "Skærbæk":
+    sted: <Danmark>.
+  "Skævinge":
+    sted: <Danmark>.
+  "Skødstrup":
+    sted: <Danmark>.
+  "Skørping":
+    sted: <Danmark>.
+  "Skårup":
+    sted: <Danmark>.
+  "Slagelse":
+    sted: <Danmark>.
+  "Slangerup":
+    sted: <Danmark>.
+  "Smørum":
+    sted: <Danmark>.
+  "Snedsted":
+    sted: <Danmark>.
+  "Snekkersten":
+    sted: <Danmark>.
+  "Snertinge":
+    sted: <Danmark>.
+  "Solbjerg":
+    sted: <Danmark>.
+  "Solrød Strand":
+    sted: <Danmark>.
+  "Sommersted":
+    sted: <Danmark>.
+  "Sorring":
+    sted: <Danmark>.
+  "Sorø":
+    sted: <Danmark>.
+  "Spenstrup":
+    sted: <Danmark>.
+  "Spjald":
+    sted: <Danmark>.
+  "Sporup":
+    sted: <Danmark>.
+  "Spøttrup":
+    sted: <Danmark>.
+  "Stakroge":
+    sted: <Danmark>.
+  "Stege":
+    sted: <Danmark>.
+  "Stenderup":
+    sted: <Danmark>.
+  "Stenlille":
+    sted: <Danmark>.
+  "Stenløse":
+    sted: <Danmark>.
+  "Stenstrup":
+    sted: <Danmark>.
+  "Stensved":
+    sted: <Danmark>.
+  "Stoholm":
+    sted: <Danmark>.
+  "Stokkemarke":
+    sted: <Danmark>.
+  "Store Fuglede":
+    sted: <Danmark>.
+  "Store Heddinge":
+    sted: <Danmark>.
+  "Store Merløse":
+    sted: <Danmark>.
+  "Storvorde":
+    sted: <Danmark>.
+  "Stouby":
+    sted: <Danmark>.
+  "Strandby":
+    sted: <Danmark>.
+  "Struer":
+    sted: <Danmark>.
+  "Strøby":
+    sted: <Danmark>.
+  "Stubbekøbing":
+    sted: <Danmark>.
+  "Støvring":
+    sted: <Danmark>.
+  "Suldrup":
+    sted: <Danmark>.
+  "Sulsted":
+    sted: <Danmark>.
+  "Sunds":
+    sted: <Danmark>.
+  "Svaneke":
+    sted: <Danmark>.
+  "Svebølle":
+    sted: <Danmark>.
+  "Svendborg":
+    sted: <Danmark>.
+  "Svenstrup":
+    sted: <Danmark>.
+  "Svinninge":
+    sted: <Danmark>.
+  "Sydals":
+    sted: <Danmark>.
+  "Sæby":
+    sted: <Danmark>.
+  "Søborg":
+    sted: <Danmark>.
+  "Søby Ærø":
+    sted: <Danmark>.
+  "Søllested":
+    sted: <Danmark>.
+  "Sønder Felding":
+    sted: <Danmark>.
+  "Sønder Omme":
+    sted: <Danmark>.
+  "Sønder Stenderup":
+    sted: <Danmark>.
+  "Sønderborg":
+    sted: <Danmark>.
+  "Søndersø":
+    sted: <Danmark>.
+  "Sørvad":
+    sted: <Danmark>.
+  "Tappernøje":
+    sted: <Danmark>.
+  "Tarm":
+    sted: <Danmark>.
+  "Terndrup":
+    sted: <Danmark>.
+  "Them":
+    sted: <Danmark>.
+  "Thisted":
+    sted: <Danmark>.
+  "Thorsø":
+    sted: <Danmark>.
+  "Thyborøn":
+    sted: <Danmark>.
+  "Thyholm":
+    sted: <Danmark>.
+  "Tikøb":
+    sted: <Danmark>.
+  "Tilst":
+    sted: <Danmark>.
+  "Tim":
+    sted: <Danmark>.
+  "Tinglev":
+    sted: <Danmark>.
+  "Tistrup":
+    sted: <Danmark>.
+  "Tisvildeleje":
+    sted: <Danmark>.
+  "Tjele":
+    sted: <Danmark>.
+  "Tjæreborg":
+    sted: <Danmark>.
+  "Toftlund":
+    sted: <Danmark>.
+  "Tommerup":
+    sted: <Danmark>.
+  "Toreby":
+    sted: <Danmark>.
+  "Torrig":
+    sted: <Danmark>.
+  "Tranbjerg J":
+    sted: <Danmark>.
+  "Tranekær":
+    sted: <Danmark>.
+  "Trige":
+    sted: <Danmark>.
+  "Trustrup":
+    sted: <Danmark>.
+  "Tureby":
+    sted: <Danmark>.
+  "Tylstrup":
+    sted: <Danmark>.
+  "Tølløse":
+    sted: <Danmark>.
+  "Tønder":
+    sted: <Danmark>.
+  "Tørring":
+    sted: <Danmark>.
+  "Tårs":
+    sted: <Danmark>.
+  "Taastrup":
+    sted: <Danmark>.
+  "Ugerløse":
+    sted: <Danmark>.
+  "Uldum":
+    sted: <Danmark>.
+  "Ulfborg":
+    sted: <Danmark>.
+  "Ullerslev":
+    sted: <Danmark>.
+  "Ulstrup":
+    sted: <Danmark>.
+  "Vadum":
+    sted: <Danmark>.
+  "Valby":
+    sted: <Danmark>.
+  "Vallensbæk":
+    sted: <Danmark>.
+  "Vallensbæk Strand":
+    sted: <Danmark>.
+  "Vamdrup":
+    sted: <Danmark>.
+  "Vandel":
+    sted: <Danmark>.
+  "Vanløse":
+    sted: <Danmark>.
+  "Varde":
+    sted: <Danmark>.
+  "Vedbæk":
+    sted: <Danmark>.
+  "Veflinge":
+    sted: <Danmark>.
+  "Vejby":
+    sted: <Danmark>.
+  "Vejen":
+    sted: <Danmark>.
+  "Vejers Strand":
+    sted: <Danmark>.
+  "Vejle":
+    sted: <Danmark>.
+  "Vejle Øst":
+    sted: <Danmark>.
+  "Vejstrup":
+    sted: <Danmark>.
+  "Veksø Sjælland":
+    sted: <Danmark>.
+  "Vemb":
+    sted: <Danmark>.
+  "Vemmelev":
+    sted: <Danmark>.
+  "Vesløs":
+    sted: <Danmark>.
+  "Vestbjerg":
+    sted: <Danmark>.
+  "Vester Skerninge":
+    sted: <Danmark>.
+  "Vesterborg":
+    sted: <Danmark>.
+  "Vestervig":
+    sted: <Danmark>.
+  "Viborg":
+    sted: <Danmark>.
+  "Viby J":
+    sted: <Danmark>.
+  "Viby Sjælland":
+    sted: <Danmark>.
+  "Videbæk":
+    sted: <Danmark>.
+  "Vig":
+    sted: <Danmark>.
+  "Vildbjerg":
+    sted: <Danmark>.
+  "Vils":
+    sted: <Danmark>.
+  "Vinderup":
+    sted: <Danmark>.
+  "Vipperød":
+    sted: <Danmark>.
+  "Virum":
+    sted: <Danmark>.
+  "Vissenbjerg":
+    sted: <Danmark>.
+  "Viuf":
+    sted: <Danmark>.
+  "Vodskov":
+    sted: <Danmark>.
+  "Vojens":
+    sted: <Danmark>.
+  "Vonge":
+    sted: <Danmark>.
+  "Vorbasse":
+    sted: <Danmark>.
+  "Vordingborg":
+    sted: <Danmark>.
+  "Vrå":
+    sted: <Danmark>.
+  "Væggerløse":
+    sted: <Danmark>.
+  "Værløse":
+    sted: <Danmark>.
+  "Ærøskøbing":
+    sted: <Danmark>.
+  "Ølgod":
+    sted: <Danmark>.
+  "Ølsted":
+    sted: <Danmark>.
+  "Ølstykke":
+    sted: <Danmark>.
+  "Ørbæk":
+    sted: <Danmark>.
+  "Ørnhøj":
+    sted: <Danmark>.
+  "Ørsted":
+    sted: <Danmark>.
+  "Ørum Djurs":
+    sted: <Danmark>.
+  "Østbirk":
+    sted: <Danmark>.
+  "Øster Assels":
+    sted: <Danmark>.
+  "Øster Ulslev":
+    sted: <Danmark>.
+  "Øster Vrå":
+    sted: <Danmark>.
+  "Østermarie":
+    sted: <Danmark>.
+  "Aabenraa" (Åbenrå):
+    sted: <Danmark>.
+  "Aabybro":
+    sted: <Danmark>.
+  "Åbyhøj":
+    sted: <Danmark>.
+  "Aakirkeby" (Åkirkeby):
+    sted: <Danmark>.
+  "Aalborg" (Ålborg):
+    sted: <Danmark>.
+  "Ålbæk":
+    sted: <Danmark>.
+  "Aalestrup":
+    sted: <Danmark>.
+  "Ålsgårde":
+    sted: <Danmark>.
+  "Århus" (Aarhus):
+    sted: <Danmark>.
+  "Årre":
+    sted: <Danmark>.
+  "Aars":
+    sted: <Danmark>.
+  "Årslev":
+    sted: <Danmark>.
+  "Aarup":
+    sted: <Danmark>.
+  "Givskud":
+    sted: <Danmark>.
+}

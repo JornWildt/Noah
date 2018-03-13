@@ -1,0 +1,28 @@
+! define (type)
+{
+  sprog:
+    er: "er et sprog.";
+    intro: "Sprog er noget vi taler. Jeg taler fx dansk og har pudsigt nok glemt mit tyske.".
+}
+
+! define (sprog)
+{
+  dansk:.
+  norsk:.
+  svensk:.
+  islandsk:.
+  grønlandsk:.
+  tysk:.
+  engelsk:.
+  skotsk:.
+  walisisk:.
+  fransk:.
+  polsk:.
+  hollandsk:.
+  italiensk:.
+  spansk:.
+  portugesisk:. 
+  belgisk:.
+  russisk:.
+  kinesisk:.  
+}

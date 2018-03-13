@@ -1,0 +1,34 @@
+! define (type)
+{
+  krybdyr:
+    er: "er et krybdyr".
+}
+
+! define (dyr, krybdyr)
+{
+  "krokodille" (krokodillen, krokodiller, krokodillerne):
+    intro: "Krokodillen er et stort, kraftigt bygget, firbenlignende krybdyr med lang, flad snude og øjne, ører og næsebor placeret øverst på hovedet. Krokodillen svømmer godt og kan desuden bevæge sig på land.";
+    dyreklasse: krybdyr;
+    levested: <Afrika>, <Asien>, <Sydamerika>.
+
+  "firben" (firbenet, firbenene):
+    dyreklasse: krybdyr.
+
+  "salamander" (salamanderen):
+    dyreklasse: krybdyr.
+
+  "frø" (frøen, frøer, frøerne, "brun frø", "grøn frø", "løvfrø", "klokkefrø"):
+    dyreklasse: krybdyr.
+
+  "tudse" (tudsen, tudser, tudserne):
+    dyreklasse: krybdyr.
+
+  "hugorm" (hugormen, hugorme, hugormene):
+    dyreklasse: krybdyr.
+
+  "slange" (slangen, slanger, slangerne):
+    dyreklasse: krybdyr.
+
+  "snog" (snogen, snoge, snogene):
+    dyreklasse: krybdyr.
+}

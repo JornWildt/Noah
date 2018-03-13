@@ -28,20 +28,17 @@ namespace Noah.Service
       Logger.Info("Starting Noah service");
       Logger.Info("**************************************************************************************");
 
-      bool doClearStore = false;
-      foreach (string arg in args)
-      {
-        if (arg == "--clear")
-          doClearStore = true;
-      }
-
       CastleContainer = new WindsorContainer();
       InstallDependencies(CastleContainer);
 
       NoahInitializer.Initialize(CastleContainer.Resolve<IEntityRepository>());
 
+      bool doClearStore = false;
+
       HostFactory.Run(c =>
       {
+        c.AddCommandLineSwitch("clear", cl => doClearStore = cl);
+
         c.Service(s => new ServiceControlWithErrorHandling(
           new NoahService(CastleContainer, doRunWebHost: true, doClearStore: doClearStore), Logger));
         c.StartManually();

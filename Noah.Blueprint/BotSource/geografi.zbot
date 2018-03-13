@@ -1,0 +1,143 @@
+! define (type)
+{
+  by (byer):
+    er: "er en by";
+    intro: "En by er sted hvor mennesker samles og bor.".
+    
+  sted (steder):
+    er: "er et sted".
+    
+  land (lande):
+    er: "er et land";
+    intro: "Et land er et politisk bestemt geografisk område.".
+}
+
+
+! pattern (intent = hvad_ligger_i, type = spm)
+{
+  > hvad ligger i {emne}
+  > hvad ligger der i {emne}
+  > hvad er der i {emne}
+  > hvad kan man finde i {emne}
+}
+
+
+! pattern (intent = ligger_x_i, type = spm)
+{
+  > ligger {emne} i {sted}
+  > ligger {emne} ved {sted}
+}
+
+
+! pattern (intent = hvor_er, type = spm)
+{
+  > hvor ligger {emne}
+  > hvor ligger {emne} henne
+  > hvor er {emne}
+  > hvor er {emne} henne
+  > hvor finder jeg {emne}
+  > hvor finder jeg {emne} henne
+  > hvor kan jeg finde {emne}
+  > hvor kan jeg finde {emne} henne
+}
+
+
+! pattern (intent = hvilken_by_er_hovedstad, type = spm)
+{
+  > hvilken by er hovedstaden i {land}
+  > hvad er hovedstaden i {land}
+}
+
+
+>> hvor_er (emne:sted)
+! call RDF.Query("
+SELECT ?name ?topic
+WHERE
+{
+  ?subj zp:knownby ?emne.
+  ?subj zp:sted ?sted.
+  ?sted rdfs:label ?name.
+  FILTER (?emne = lcase(@emne))
+  OPTIONAL {?subj zp:topic ?topic}
+}
+")
+# If the result has a topic associated to it, then try to set that as the current chat topic
+! call RDF.TrySetTopic($_, "topic")
+: <emne> ligger i <result:{r | <r.name>}>
+{empty}: Jeg ved desværre ikke hvor {emne} er.
+{empty}: Det ved jeg ikke.
+{empty}: Hvis bare jeg vidste det.
+{empty}: Hmmm.
+{empty}: Aner det ikke.
+
+
+>> hvad_ligger_i (emne:sted)
+! call RDF.Query("
+SELECT ?name ?topic
+WHERE
+{
+  ?sted zp:knownby ?knownby.
+  ?subj zp:sted ?sted.
+  ?subj rdfs:label ?name.
+  FILTER (?knownby = lcase(@emne))
+  OPTIONAL {?sted zp:topic ?topic}
+}
+ORDER BY RAND()
+LIMIT 5
+")
+# If the result has a topic associated to it, then try to set that as the current chat topic
+! call RDF.TrySetTopic($_, "topic")
+: Det kunne være <result:{r | <r.name>};separator=", ">.
+{empty}: Jeg ved ikke lige hvad der ligger i <emne>.
+{empty}: Ikke noget jeg kender til.
+{empty}: Det ved jeg ikke.
+{empty}: Hvis bare jeg vidste det.
+{empty}: Hmmm.
+{empty}: Aner det ikke.
+
+
+>> ligger_x_i (emne:sted, sted:sted)
+! call RDF.Query("
+SELECT ?name ?topic
+WHERE
+{
+  ?emne zp:knownby ?emneKnownby.
+  ?sted zp:knownby ?stedKnownby.
+  ?emne zp:sted ?sted.
+  ?emne rdfs:label ?name
+  FILTER (?emneKnownby = lcase(@emne))
+  FILTER (?stedKnownby = lcase(@sted))
+  OPTIONAL {?emne zp:topic ?topic}
+}
+LIMIT 1
+")
+# If the result has a topic associated to it, then try to set that as the current chat topic
+! call RDF.TrySetTopic($_, "topic")
+: Ja
+: Ja, <emne> ligger vist nok i <sted>.
+: Det vil jeg mene
+{empty}: Nej
+{empty}: Nej, det mener jeg ikke.
+{empty}: Næh, ikke mig bekendt.
+{empty}: Det vil jeg ikke mene.
+
+
+>> hvilken_by_er_hovedstad (land:sted)
+! call RDF.Query("
+SELECT ?name ?topic
+WHERE
+{
+  ?land zp:knownby ?navn.
+  ?land zp:hovedstad ?by.
+  ?by rdfs:label ?name.
+  FILTER (?navn = lcase(@land))
+  OPTIONAL {?by zp:topic ?topic}
+}
+")
+: Hovedstaden i <land> er <result:{r | <r.name>}>
+{empty}: Jeg ved ikke hvad hovedstaden i <land> er.
+{empty}: Det ved jeg ikke.
+{empty}: Hvis bare jeg vidste det.
+{empty}: Hmmm.
+{empty}: Aner det ikke.
+

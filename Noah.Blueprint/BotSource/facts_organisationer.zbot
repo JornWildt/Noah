@@ -1,0 +1,5 @@
+! define (type)
+{
+  organisation:
+    er: "er en organisation.".
+}

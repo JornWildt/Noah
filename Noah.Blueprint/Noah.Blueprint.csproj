@@ -64,8 +64,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="BotSource\concepter_basis.zbot" />
+    <None Include="BotSource\facts_danske_byer.zbot" />
+    <None Include="BotSource\facts_danske_seværdigheder.zbot" />
+    <None Include="BotSource\facts_dyr_fisk.zbot" />
+    <None Include="BotSource\facts_dyr_fugle.zbot" />
+    <None Include="BotSource\facts_dyr_insekter.zbot" />
+    <None Include="BotSource\facts_dyr_krybdyr.zbot" />
+    <None Include="BotSource\facts_dyr_pattedyr.zbot" />
+    <None Include="BotSource\facts_film.zbot" />
+    <None Include="BotSource\facts_hovedstæder.zbot" />
+    <None Include="BotSource\facts_lande.zbot" />
+    <None Include="BotSource\facts_mad_ingredienser.zbot" />
+    <None Include="BotSource\facts_mad_retter.zbot" />
+    <None Include="BotSource\facts_organisationer.zbot" />
+    <None Include="BotSource\facts_personer.zbot" />
+    <None Include="BotSource\facts_politik.zbot" />
+    <None Include="BotSource\facts_sprog.zbot" />
+    <None Include="BotSource\facts_storbyer.zbot" />
+    <None Include="BotSource\geografi.zbot" />
     <None Include="BotSource\intentioner_basic.zbot" />
     <None Include="BotSource\intentioner_du_dig.zbot" />
+    <None Include="BotSource\leksikon.zbot" />
     <None Include="BotSource\rdf.zbot" />
     <None Include="BotSource\vejret.zbot" />
     <None Include="BotSource\velkommen.zbot" />

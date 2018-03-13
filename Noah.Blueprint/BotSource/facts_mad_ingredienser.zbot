@@ -1,0 +1,19 @@
+﻿! define (opskrift)
+{
+  ingrediens:
+    er: "er noget der indgår i en opskrift".
+}
+
+! define (ingrediens)
+{
+  "ris" (risene):.
+  "mælk" (mælken):.
+  "mel":.
+  "gær" (gæren):.
+  "vand" (vandet):.
+  "salt" (saltet):.
+  "peber" (peberet):.
+  "tomat" (tomaten, tomater, tomaterne):.
+  "skinke" (skinken, skinker, skinkerne):.
+  "ost" (osten, osten, ostene):.
+}

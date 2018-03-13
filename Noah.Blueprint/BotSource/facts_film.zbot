@@ -1,0 +1,14 @@
+! define (film)
+{
+  "Harry Potter":
+    beskrivelse: "En serie af film om troldmandsdrengen Harry Potter og hans liv på troldmandsskolen Hogwards";
+    genre: "fantasy";
+    instruktør: <Alfonso Cuarón>;
+    medvirkende: <Daniel Radcliffe>, <Rupert Grint>, <Emma Watson>.
+}
+
+! define (type)
+{
+  film:
+    er: "er en film".
+}

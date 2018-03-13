@@ -1,0 +1,19 @@
+﻿! define (type)
+{
+  mad_ret (ret):
+    er: "er noget man spiser.".
+  opskrift:
+    er: "er en beskrivelse af hvordan man fremstiller noget - fx et måltid mad.".
+}
+
+! define (mad_ret)
+{
+  "Risengrød" (risengrøden):
+    intro: "Risengrød er dejlig grød lavet af mælk og ris. Grøden *skal* serveres med kanelsukker og smør.";
+    opskrift: "Hæld 1 liter mælk og 2½ dl grød i en gryder, og kog det i cirka 45 min. indtil risene er møre";
+    ingrediens: <ris>, <mælk>.
+  "Pizza" (pizzaen, pizzaer, pizzaerne):
+    intro: "Pizza er et fladt rundt brød med forskellige slags toppings ovenpå.";
+    opskrift: "Bland en dej af mel, vand og gær. Lad den hæve lidt. Rul derefter ud på en bageplade, hæld tomatsovs over og drys fyldet ovenpå. Slut af med et godt drys ost.";
+    ingrediens: <mel>, <vand>, <gær>, <salt>, <tomat>, <skinke>, <ost>.
+}

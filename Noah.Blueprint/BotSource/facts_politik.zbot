@@ -1,0 +1,89 @@
+! define (politisk_parti)
+{
+  "Venstre": 
+    partileder: <Lars Løkke Rasmussen>.
+  
+  "Det Konservative Folkeparti" (konservative):
+    partileder: <Søren Pape Poulsen>.
+    
+  "Socialdemokratiet":
+    partileder: <Mette Frederiksen>.
+    
+  "Radikale Venstre" (radikale):
+    partileder: <Morten Østergaard>.
+    
+  "Socialistisk Folkeparti":
+    partileder: <Pia Olsen Dyhr>.
+    
+  "Fremskridtspartiet":
+    partileder: <Niels Højland>.
+    
+  "Kristendemokraterne" ("Kristeligt Folkeparti"):
+    partileder: <Stig Grenov>.
+    
+  "Centrum Demokraterne":
+    partileder: <Ben Haddou>.
+    
+  "Enhedslisten":
+    partileder: <Pernille Skipper>.
+    
+  "Dansk Folkeparti":
+    partileder: <Kristian Thulesen Dahl>.
+    
+  "Liberal Alliance":
+    partileder: <Anders Samuelsen>.
+    
+  "Alternativet":
+    partileder: <Uffe Elbæk>.
+    
+  "Danmarks Kommunistiske Parti":
+    partileder: <Henrik Stamer Hedin>.
+    
+  "Retsforbundet":.
+    
+  "Bondepartiet":.
+    
+  "Dansk Samling":.
+    
+  "Slesvigsk Parti":.
+    
+  "Danmarks Nationalsocialistiske Arbejderparti":.
+    
+  "De Uafhængige":.
+    
+  "Fredspolitisk Folkeparti":.
+    
+  "Liberalt Centrum":.
+    
+  "Venstresocialisterne":.
+    
+  "Erhvervspartiet":.
+    
+  "Fælles Kurs":.
+}
+
+! define (politiker, person)
+{
+  "Lars Løkke Rasmussen" ("Lars Løkke"):.
+  "Søren Pape Poulsen":.
+  "Mette Frederiksen":.
+  "Morten Østergaard":.
+  "Pia Olsen Dyhr":.
+  "Niels Højland":.
+  "Stig Grenov":.
+  "Ben Haddou":.
+  "Pernille Skipper":.
+  "Kristian Thulesen Dahl":.
+  "Anders Samuelsen":.
+  "Uffe Elbæk":.
+  "Henrik Stamer Hedin":.
+}
+
+! define (type)
+{
+  politiker (politikere):
+    er: "er politiker.".
+  politisk_parti (parti, partier, "politiske partier"):
+    er: "er et politisk parti.".
+}
+

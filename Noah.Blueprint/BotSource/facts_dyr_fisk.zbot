@@ -1,0 +1,57 @@
+! define (type)
+{
+  fisk:
+    er: "er en fisk";
+    intro: "Fisk er noget der svømmer i havet. Jeg bryder mig ikke specielt om fisk".
+}
+
+
+! define (dyr, fisk)
+{
+  "fisk" (fisken, fiskene):
+    dyreklasse: fisk.
+    
+  "aborre" (aborren, aborrer, aborrerne):
+    dyreklasse: fisk.
+    
+  "brasen":
+    dyreklasse: fisk.
+    
+  "ørred" (ørreden, ørreder, ørrederne, bækørred, bækørreden, bækørrederne, havørred, havørreden, havørrederne, regnbueørred, regnbueørreden, regnbueørreder, regnbueørrederne):
+    dyreklasse: fisk.
+    
+  "fjæsing" (fjæsingen, fjæsinger, fjæsingerne):
+    dyreklasse: fisk.
+    
+  "Gedde" (gedden, gedder, gedderne):
+    dyreklasse: fisk.
+    
+  "makrel" (makrellen, makreller, makrellerne):
+    dyreklasse: fisk.
+    
+  "hornfisk" (hornfisken, hornfiskene):
+    dyreklasse: fisk.
+    
+  "laks" (laksen, laksene):
+    dyreklasse: fisk.
+    
+  "rødspætte" (rødspætten, rødspætter, rødspætterne):
+    dyreklasse: fisk.
+    
+  "sild" (silden, sildene):
+    dyreklasse: fisk.
+    
+  "torsk" (torsken, torskene):
+    dyreklasse: fisk.
+    
+  "ål" (ålen, ålene):
+    dyreklasse: fisk.
+    
+# --- Andre
+
+  "haj" (hajen, hajer, hajerne):
+    dyreklasse: fisk.
+
+  "blæksprutte" (blæksprutten, blæksprutter, blæksprutterne):
+    dyreklasse: blæksprutte.
+}

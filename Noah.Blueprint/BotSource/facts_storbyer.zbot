@@ -1,0 +1,300 @@
+! define (by, sted)
+{
+  "Tokyo":
+    befolkning: 35;
+    sted: <Japan>.
+  "New Delhi":
+    befolkning: 30;
+    sted: <Indien>.
+  "Mexico City":
+    befolkning: 22;
+    sted: <Mexico>.
+  "New York city":
+    befolkning: 21;
+    sted: <USA>.
+  "Mumbai":
+    befolkning: 20;
+    sted: <Indien>.
+  "Karachi":
+    befolkning: 20;
+    sted: <Pakistan>.
+  "Sao Paulo":
+    befolkning: 19;
+    sted: <Brasilien>.
+  "Osaka":
+    befolkning: 18;
+    sted: <Japan>.
+  "Shanghai":
+  	befolkning: 20;
+    sted: <Kina>.
+  "Beijing":
+    befolkning: 17;
+    sted: <Kina>.
+  "Kolkata":
+    befolkning: 16;
+    sted: <Indien>.
+  "Los Angeles":
+    befolkning: 16;
+    sted: <USA>.
+  "Cairo":
+    befolkning: 16;
+    sted: <Egypten>.
+  "Istanbul":
+    befolkning: 13;
+    sted: <Tyrkiet>.
+  "London":
+    befolkning: 13;
+    sted: <Storbritannien>.
+  "Dhaka":
+    befolkning: 12;
+    sted: <Bangladesh>.
+  "Paris":
+    befolkning: 12;
+    sted: <Frankrig>.
+  "Moskva":
+    befolkning: 11;
+    sted: <Rusland>.
+  "Rio de Janeiro":
+    befolkning:	11;
+    sted: <Brasilien>.
+  "Jakarta":
+    befolkning:	11;
+    sted: <Indonesien>.
+  "Lagos":
+    befolkning: 10;
+    sted: <Nigeria>.
+  "Seoul":
+    befolkning: 10;
+    sted: <Sydkorea>.
+  "Manila":
+    befolkning: 10;
+    sted: <Filippinerne>.
+  "Chicago":
+    befolkning: 9;
+    sted: <USA>.
+  "Guangzhou":
+    befolkning: 8;
+    sted: <Kina>.
+  "Bogotá":
+    befolkning: 7;
+    sted: <Colombia>.
+  "Tehran":
+    befolkning: 7;
+    sted: <Iran>.
+  "Lima":
+    befolkning: 7;
+    sted: <Peru>.
+  "Wuhan":
+    befolkning: 7;
+    sted: <Kina>.
+  "Hong Kong":
+    befolkning: 7;
+    sted: <Kina>.
+  "Tianjin":
+    befolkning: 7;
+    sted: <Kina>.
+  "Chennai":
+    befolkning: 6;
+    sted: <Indien>.
+  "Bangkok":
+    befolkning: 6;
+    sted: <Thailand>.
+  "Bangalore":
+    befolkning: 6;
+    sted: <Indien>.
+  "Chongqing":
+    befolkning: 6;
+    sted: <Kina>.
+  "Lahore":
+    befolkning: 6;
+    sted: <Pakistan>.
+  "Hyderabad":
+    befolkning: 6;
+    sted: <Indien>.
+  "Kinshasa":
+    befolkning: 6;
+    sted: <Demokratiske Republik Congo>.
+  "Baghdad":
+    befolkning: 6;
+    sted: <Irak>.
+  "Santiago":
+    befolkning: 6;
+    sted: <Chile>.
+  "Madrid":
+    befolkning: 5;
+    sted: <Spanien>.
+  "Miami":
+    befolkning: 5;
+    sted: <USA>.
+  "Philadelphia":
+    befolkning: 5;
+    sted: <USA>.
+  "Toronto":
+    befolkning: 5;
+    sted: <Canada>.
+  "Sankt Petersborg":
+    befolkning: 5;
+    sted: <Rusland>.
+  "Belo Horizonte":
+    befolkning: 5;
+    sted: <Brasilien>.
+  "Ahmadabad":
+    befolkning: 5;
+    sted: <Indien>.
+  "Ho Chi Minh":
+    befolkning: 5;
+    sted: <Vietnam>.
+  "Barcelona":
+    befolkning: 4;
+    sted: <Spanien>.
+  "Shenyang":
+    befolkning: 4;
+    sted: <Kina>.
+  "Dallas-Fort Worth" (Dallas):
+    befolkning: 4;
+    sted: <USA>.
+  "Khartoum":
+    befolkning: 4;
+    sted: <Sudan>.
+  "Pune":
+    befolkning: 4;
+    sted: <Indien>.
+  "Boston":
+    befolkning: 4;
+    sted: <USA>.
+  "Singapore":
+    befolkning: 4;
+    sted: <Singapore>.
+  "Sydney":
+    befolkning: 4;
+    sted: <Australien>.
+  "Dongguan":
+    befolkning: 4;
+    sted: <Kina>.
+  "Houston":
+    befolkning: 4;
+    sted: <USA>.
+  "Atlanta":
+    befolkning: 4;
+    sted: <USA>.
+  "Washington D.C" (washington):
+    befolkning: 4;
+    sted: <USA>.
+  "Riyadh":
+    befolkning: 4;
+    sted: <Saudi Arabien>.
+  "Hanoi":
+    befolkning: 4;
+    sted: <Vietnam>.
+  "Bandung":
+    befolkning: 4;
+    sted: <Indonesien>.
+  "Yangon":
+    befolkning: 4;
+    sted: <Burma>.
+  "Chittagong":
+    befolkning: 4;
+    sted: <Bangladesh>.
+  "Chengdu":
+    befolkning: 4;
+    sted: <Kina>.
+  "Detroit":
+    befolkning: 4;
+    sted: <USA>.
+  "Guadalajara":
+    befolkning: 3;
+    sted: <Mexico>.
+  "Xian":
+    befolkning: 3;
+    sted: <Kina>.
+  "Porto Alegre":
+    befolkning: 3;
+    sted: <Brasilien>.
+  "Alexandria":
+    befolkning: 3;
+    sted: <Egypten>.
+  "Harbin":
+    befolkning: 3;
+    sted: <Kina>.
+  "Montreal":
+    befolkning: 3;
+    sted: <Canada>.
+  "Melbourne":
+    befolkning: 3;
+    sted: <Australien>.
+  "Nanjing":
+    befolkning: 3;
+    sted: <Kina>.
+  "Monterrey":
+    befolkning: 3;
+    sted: <Mexico>.
+  "Abidjan":
+    befolkning: 3;
+    sted: <Elfenbenskysten>.
+  "Ankara":
+    befolkning: 3;
+    sted: <Tyrkiet>.
+  "Surat":
+    befolkning: 3;
+    sted: <Indien>.
+  "Pusan":
+    befolkning: 3;
+    sted: <Sydkorea>.
+  "Recife":
+    befolkning: 3;
+    sted: <Brasilien>.
+  "Guiyang":
+    befolkning: 3;
+    sted: <Kina>.
+  "Phoenix Mesa" (phoenix):
+    befolkning: 3;
+    sted: <USA>.
+  "Berlin":
+    befolkning: 3;
+    sted: <Tyskland>.
+  "San Francisco":
+    befolkning: 3;
+    sted: <USA>.
+  "Pyongyang":
+    befolkning: 3;
+    sted: <Nordkorea>.
+  "Rom":
+    befolkning: 3;
+    sted: <Italien>.
+  "Brasilia":
+    befolkning: 3;
+    sted: <Brasilien>.
+  "Salvador":
+    befolkning: 3;
+    sted: <Brasilien>.
+  "Johannesburg":
+    befolkning: 3;
+    sted: <Sydafrika>.
+  "Athen":
+    befolkning: 3;
+    sted: <Grækenland>.
+  "Fortaleza":
+    befolkning: 3;
+    sted: <Brasilien>.
+  "Algier":
+    befolkning: 3;
+    sted: <Algeriet>.
+  "Nagoya":
+    befolkning: 3;
+    sted: <Japan>.
+  "Casablanca":
+    befolkning: 3;
+    sted: <Marokko>.
+  "Cape Town":
+    befolkning: 3;
+    sted: <Sydafrika>.
+  "Dalian":
+    befolkning: 3;
+    sted: <Kina>.
+  "Medellín":
+    befolkning: 3;
+    sted: <Colombia>.
+  "Changchun":
+    befolkning: 3;
+    sted: <Kina>.
+}

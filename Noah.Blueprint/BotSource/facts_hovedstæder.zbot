@@ -1,0 +1,398 @@
+! define (by, sted)
+{
+    "Abidjan":
+      sted: <Elfenbenskysten>.
+    "Abu Dhabi":
+      sted: <Forenede Arabiske Emirater>.
+    "Abuja":
+      sted: <Nigeria>.
+    "Accra":
+      sted: <Ghana>.
+    "Addis Abeba":
+      sted: <Etiopien>.
+    "Algier":
+      sted: <Algeriet>.
+    "Amman":
+      sted: <Jordan>.
+    "Amsterdam":
+      sted: <Holland>.
+    "Andorra la Vella":
+      sted: <Andorra>.
+    "Ankara":
+      sted: <Tyrkiet>.
+    "Antananarivo":
+      sted: <Madagaskar>.
+    "Apia":
+      sted: <Samoa>.
+    "Asjkhabad":
+      sted: <Turkmenistan>.
+    "Asmara":
+      sted: <Eritrea>.
+    "Astana":
+      sted: <Kasakhstan>.
+    "Asunción":
+      sted: <Paraguay>.
+    "Athen":
+      sted: <Grækenland>.
+    "Bagdad":
+      sted: <Irak>.
+    "Baku":
+      sted: <Aserbajdsjan>.
+    "Bamako":
+      sted: <Mali>.
+    "Bandar Seri Begawan":
+      sted: <Brunei>.
+    "Bangkok":
+      sted: <Thailand>.
+    "Bangui":
+      sted: <Den Centralafrikanske Republik>.
+    "Banjul":
+      sted: <Gambia>.
+    "Basseterre":
+      sted: <Saint Kitts og Nevis>.
+    "Beirut":
+      sted: <Libanon>.
+    "Beijing":
+      sted: <Kina>.
+    "Beograd":
+      sted: <Serbien>.
+    "Belmopan":
+      sted: <Belize>.
+    "Berlin":
+      sted: <Tyskland>.
+    "Bern":
+      sted: <Schweiz>.
+    "Bisjkek":
+      sted: <Kirgisistan>.
+    "Bissau":
+      sted: <Guinea Bissau>.
+    "Bogotá":
+      sted: <Colombia>.
+    "Brasília":
+      sted: <Brasilien>.
+    "Bratislava":
+      sted: <Slovakiet>.
+    "Brazzaville":
+      sted: <Republikken Congo>.
+    "Bridgetown":
+      sted: <Barbados>.
+    "Bryssel":
+      sted: <Belgien>.
+    "Budapest":
+      sted: <Ungarn>.
+    "Buenos Aires":
+      sted: <Argentina>.
+    "Bujumbura":
+      sted: <Burundi>.
+    "Bukarest":
+      sted: <Rumænien>.
+    "Canberra":
+      sted: <Australien>.
+    "Caracas":
+      sted: <Venezuela>.
+    "Castries":
+      sted: <Saint Lucia>.
+    "Cayenne":
+      sted: <Fransk Guiana>.
+    "Chisinau":
+      sted: <Moldavien>.
+    "Colombo":
+      sted: <Sri Lanka>.
+    "Conakry":
+      sted: <Guinea>.
+    "Dhaka":
+      sted: <Bangladesh>.
+    "Dakar":
+      sted: <Senegal>.
+    "Dalap Uliga Darrit":
+      sted: <Marshalløerne>.
+    "Damaskus":
+      sted: <Syrien>.
+    "Dili":
+      sted: <Østtimor>.
+    "Djibouti":
+      sted: <Djibouti>.
+    "Dodoma":
+      sted: <Tanzania>.
+    "Doha":
+      sted: <Qatar>.
+    "Dublin":
+      sted: <Irland>.
+    "Dusjanbe":
+      sted: <Tadsjikistan>.
+    "Funafuti":
+      sted: <Tuvalu>.
+    "Freetown":
+      sted: <Sierra Leone>.
+    "Gaborone":
+      sted: <Botswana>.
+    "Georgetown":
+      sted: <Guyana>.
+    "Guatemala City":
+      sted: <Guatemala>.
+    "Hanoi":
+      sted: <Vietnam>.
+    "Harare":
+      sted: <Zimbabwe>.
+    "Havanna":
+      sted: <Cuba>.
+    "Helsingfors":
+      sted: <Finland>.
+    "Honiara":
+      sted: <Salomonøerne>.
+    "Islamabad":
+      sted: <Pakistan>.
+    "Jakarta":
+      sted: <Indonesien>.
+    "Jerevan":
+      sted: <Armenien>.
+    "Juba":
+      sted: <Sydsudan>.
+    "Kabul":
+      sted: <Afghanistan>.
+    "Kairo":
+      sted: <Egypten>.
+    "Kampala":
+      sted: <Uganda>.
+    "Katmandu":
+      sted: <Nepal>.
+    "Khartoum":
+      sted: <Sudan>.
+    "Kijev":
+      sted: <Ukraine>.
+    "Kigali":
+      sted: <Rwanda>.
+    "Kingston":
+      sted: <Jamaica>.
+    "Kingstown":
+      sted: <Saint Vincent>, <Grenadinerne>.
+    "Kinshasa":
+      sted: <Demokratiske Republik Congo>.
+    "Kuala Lumpur":
+      sted: <Malaysia>.
+    "Kuwait City":
+      sted: <Kuwait>.
+    "København":
+      sted: <Danmark>.
+    "Libreville":
+      sted: <Gabon>.
+    "Lilongwe":
+      sted: <Malawi>.
+    "Lima":
+      sted: <Peru>.
+    "Lissabon":
+      sted: <Portugal>.
+    "Ljubljana":
+      sted: <Slovenien>.
+    "Lomé":
+      sted: <Togo>.
+    "London":
+      sted: <Storbritannien>.
+    "Luanda":
+      sted: <Angola>.
+    "Lusaka":
+      sted: <Zambia>.
+    "Luxembourg":
+      sted: <Luxembourg>.
+    "Madrid":
+      sted: <Spanien>.
+    "Malabo":
+      sted: <Ækvatorialguinea>.
+    "Male":
+      sted: <Maldiverne>.
+    "Managua":
+      sted: <Nicaragua>.
+    "Manama":
+      sted: <Bahrain>.
+    "Manila":
+      sted: <Filippinerne>.
+    "Maputo":
+      sted: <Mozambique>.
+    "Maseru":
+      sted: <Lesotho>.
+    "Mbabane":
+      sted: <Swaziland>.
+    "Melekeok":
+      sted: <Palau>.
+    "Mexico City":
+      sted: <Mexico>.
+    "Minsk":
+      sted: <Hviderusland>.
+    "Mogadishu":
+      sted: <Somalia>.
+    "Monaco":
+      sted: <Monaco>.
+    "Monrovia":
+      sted: <Liberia>.
+    "Montevideo":
+      sted: <Uruguay>.
+    "Moroni":
+      sted: <Comorerne>.
+    "Moskva":
+      sted: <Rusland>.
+    "Muskat":
+      sted: <Oman>.
+    "N'Djamena":
+      sted: <Tchad>.
+    "Nairobi":
+      sted: <Kenya>.
+    "Nassau":
+      sted: <Bahamas>.
+    "Naypyidaw":
+      sted: <Myanmar>.
+    "New Delhi":
+      sted: <Indien>.
+    "Niamey":
+      sted: <Niger>.
+    "Nicosia":
+      sted: <Cypern>.
+    "Nouakchott":
+      sted: <Mauretanien>.
+    "Nuku'alofa":
+      sted: <Tonga>.
+    "Nuuk":
+      sted: <Grønland>.
+    "Oslo":
+      sted: <Norge>.
+    "Ottawa":
+      sted: <Canada>.
+    "Ouagadougou":
+      sted: <Burkina Faso>.
+    "Palikir":
+      sted: <Mikronesien>.
+    "Panama City":
+      sted: <Panama>.
+    "Paramaribo":
+      sted: <Surinam>.
+    "Paris":
+      sted: <Frankrig>.
+    "Phnom Penh":
+      sted: <Cambodia>.
+    "Podgorica":
+      sted: <Montenegro>.
+    "Port Louis":
+      sted: <Mauritius>.
+    "Port Moresby":
+      sted: <Papua Ny Guinea>.
+    "Port of Spain":
+      sted: <Trinidad og Tobago>.
+    "Port Vila":
+      sted: <Vanuatu>.
+    "Port au Prince":
+      sted: <Haiti>.
+    "Porto Novo":
+      sted: <Benin>.
+    "Prag":
+      sted: <Tjekkiet>.
+    "Praia":
+      sted: <Kap Verde>.
+    "Pretoria":
+      sted: <Sydafrika>.
+    "Pyongyang":
+      sted: <Nordkorea>.
+    "Quito":
+      sted: <Ecuador>.
+    "Rabat":
+      sted: <Marokko>.
+    "Reykjavik":
+      sted: <Island>.
+    "Riga":
+      sted: <Letland>.
+    "Riyadh":
+      sted: <Saudi Arabien>.
+    "Rom":
+      sted: <Italien>.
+    "Roseau":
+      sted: <Dominica>.
+    "Saint George's" ("Saint Georges"):
+      sted: <Grenada>.
+    "Saint Johns":
+      sted: <Antigua og Barbuda>.
+    "San José":
+      sted: <Costa Rica>.
+    "San Marino":
+      sted: <San Marino>.
+    "San Salvador":
+      sted: <El Salvador>.
+    "Sanaá":
+      sted: <Yemen>.
+    "Santiago de Chile":
+      sted: <Chile>.
+    "Santo Domingo":
+      sted: <Dominikanske Republik>.
+    "São Tomé":
+      sted: <São Tomé og Príncipe>.
+    "Sarajevo":
+      sted: <Bosnien Hercegovina>.
+    "Seoul":
+      sted: <Sydkorea>.
+    "Singapore":
+      sted: <Singapore>.
+    "Skopje":
+      sted: <Makedonien>.
+    "Sofia":
+      sted: <Bulgarien>.
+    "South Tarawa":
+      sted: <Kiribati>.
+    "Stockholm":
+      sted: <Sverige>.
+    "Sucre":
+      sted: <Bolivia>.
+    "Suva":
+      sted: <Fiji>.
+    "Taipei":
+      sted: <Taiwan>.
+    "Tallinn":
+      sted: <Estland>.
+    "Tasjkent":
+      sted: <Usbekistan>.
+    "Tbilisi":
+      sted: <Georgien>.
+    "Tegucigalpa":
+      sted: <Honduras>.
+    "Teheran":
+      sted: <Iran>.
+    "Tel Aviv" (Jerusalem):
+      sted: <Israel>.
+    "Thimphu":
+      sted: <Bhutan>.
+    "Tirana":
+      sted: <Albanien>.
+    "Tokyo":
+      sted: <Japan>.
+    "Tórshavn" (Torshavn):
+      sted: <Færøerne>.
+    "Tripoli":
+      sted: <Libyen>.
+    "Tunis":
+      sted: <Tunesien>.
+    "Ulan Bator":
+      sted: <Mongoliet>.
+    "Vaduz":
+      sted: <Liechtenstein>.
+    "Valletta":
+      sted: <Malta>.
+    "Vatikanet":
+      sted: <Vatikanet>.
+    "Vientiane":
+      sted: <Laos>.
+    "Vilnius":
+      sted: <Litauen>.
+    "Warszawa":
+      sted: <Polen>.
+    "Washington DC" (Washington):
+      sted: <USA>.
+    "Wellington":
+      sted: <New Zealand>.
+    "Wien":
+      sted: <Østrig>.
+    "Windhoek":
+      sted: <Namibia>.
+    "Yaoundé":
+      sted: <Cameroun>.
+    "Yaren":
+      sted: <Nauru>.
+    "Zagreb":
+      sted: <Kroatien>.
+    }
+    

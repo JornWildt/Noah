@@ -1,0 +1,126 @@
+! define (type)
+{
+  fugl:
+    er: "er en fugl".
+}
+
+
+! define (dyr, fugl)
+{
+  "fugl" (fuglen, fugle, fuglene):
+    dyreklasse: fugl.
+    
+  "agerhøne" (agerhønen, agerhøns, agerhønsene):
+    dyreklasse: fugl.
+    
+  "høne" (hønen, høns, hønsene):
+    dyreklasse: fugl.
+    
+  "allike" (alliken, alliker, allikerne):
+    dyreklasse: fugl.
+    
+  "blishøne" (blishønen, blishøns, blishønsene):
+    dyreklasse: fugl.
+    
+  "blåmejse" (blåmejsen, blåmejser, blåmejserne):
+    dyreklasse: fugl.
+    
+  "bogfinke" (bogfinken, bogfinker, bogfinkerne):
+    dyreklasse: fugl.
+    
+  "lærke" (lærken, lærker, lærkerne):
+    dyreklasse: fugl.
+    
+  "gås" (gåsen, gæs, gæssene, bramgås, bramgæs, canadagås, canadagæs):
+    dyreklasse: fugl.
+    
+  "svale" (svalen, svaler, svalerne, bysvale, landsvale, digesvale):
+    dyreklasse: fugl.
+    
+  "dompap" (dompappen, dompapper, dompapperne):
+    dyreklasse: fugl.
+    
+  "høg" (høgen, høge, høgene):
+    dyreklasse: fugl.
+    
+  "falk" (falken, falke, falkene, tårnfalk, tårnfalken, vandrefalk):
+    dyreklasse: fugl.
+    
+  "hejre" (hejren, hejrer, hejrerne, fiskehejre):
+    dyreklasse: fugl.
+    
+  "fasan" (fasanen, fasaner, fasanerne):
+    dyreklasse: fugl.
+    
+  "ørn" (ørnen, ørne, ørnene, fiskeørn, kongeørn, havørn):
+    dyreklasse: fugl.
+    
+  "mejse" (mejsen, mejser, mejserne, blåmejse, spætmejse, sumpmejse, halemejse):
+    dyreklasse: fugl.
+    
+  "and" (anden, ænder, ænderne):
+    dyreklasse: fugl.
+    
+  "spætte" (spætten, spætter, spætterne, grønspætte, flagspætte, sortspætte):
+    dyreklasse: fugl.
+    
+  "spurv" (spurven, spurve, spurvene, gråspurv, gråspurven, gråspurve, gråspurvene, skovspurv):
+    dyreklasse: fugl.
+    
+  "krage" (kragen, krager, kragerne, gråkrage):
+    dyreklasse: fugl.
+    
+  "gøg" (gøgen, gøge, gøgene):
+    dyreklasse: fugl.
+    
+  "stork" (storken, storke, storkene):
+    dyreklasse: fugl.
+    
+  "måge" (mågen, måger, mågerne, hættemåge, sildemåge, sølvmåge):
+    dyreklasse: fugl.
+    
+  "ugle" (uglen, ugler, uglerne, kirkeugle, tårnugle, natugle, hornugle, slørugle, sneugle):
+    dyreklasse: fugl.
+    
+  "svane" (svanen, svaner, svanerne, knopsvane, sangsvane):
+    dyreklasse: fugl.
+    
+  "mursejler" (mursejlerne, mursejlere, mursejlerne):
+    dyreklasse: fugl.
+    
+  "nattergal" (nattergalen, nattergale, nattergalene):
+    dyreklasse: fugl.
+    
+  "musvit" (musvitten, musvitter, musvitterne):
+    dyreklasse: fugl.
+    
+  "ravn" (ravnen, ravne, ravnene):
+    dyreklasse: fugl.
+    
+  "due" (duen, duer, duerne, brevdue, ringdue):
+    dyreklasse: fugl.
+    
+  "råge" (rågen, råger, rågerne):
+    dyreklasse: fugl.
+    
+  "skarv" (skarven, skarve, skarvene):
+    dyreklasse: fugl.
+    
+  "skade" (skaden, skader, skaderne, skovskade):
+    dyreklasse: fugl.
+    
+  "solsort" (solsorten, solsorte, solsortene):
+    dyreklasse: fugl.
+    
+  "stær" (stæren, stære, stærene):
+    dyreklasse: fugl.
+    
+  "lappedykker" (lappedykkeren, lappedykkere, lappedykkerne, "toppet lappedykker"):
+    dyreklasse: fugl.
+    
+  "trane" (tranen, traner, tranerne):
+    dyreklasse: fugl.
+    
+  "vibe" (viben, viber, viberne):
+    dyreklasse: fugl.
+}

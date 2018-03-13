@@ -1,0 +1,68 @@
+! define (type)
+{
+  seværdighed:
+    er: "er en seværdighed".
+  skulptur:
+    er: "er en skulptur".
+  bygning:
+    er: "er en bygning".
+}
+
+
+! define (seværdighed, skulptur)
+{
+  "Den lille havfrue":
+    sted: <København>.
+}
+
+
+! define (seværdighed, bygning, sted)
+{
+  "Christiansborg":
+    sted: <København>.
+  "Amalienborg":
+    sted: <København>.
+  "Rundetårn":
+    sted: <København>.
+  "Frederiksborg slot" (Frederiksborg):
+    sted: "Hillerød".
+  "Rosenborg slot" (Rosenborg):
+    sted: <København>.
+}
+
+    
+! define (seværdighed, sted)
+{
+  "Tivoli":
+    sted: <København>.
+  "Dyrehavsbakken":
+    sted: <København>.
+  "Legoland":
+    sted: <Billund>.
+  "Zoologisk have" (zoo):
+    sted: <København>.
+  "Djurs sommerland":
+    sted: <Nimtofte>.
+  "Louisiana Museum of Modern Art" (Louisiana):
+    sted: <Humlebæk>.
+  "Lalandia":
+    sted: <Billund>, <Rødby>.
+  "Den Blå Planet":
+    sted: <København>.
+  "Fårup Sommerland":
+    sted: <Fårup>.
+  "Nationalmuseet":
+    sted: <København>.
+  "ARoS Aarhus Kunstmuseum" (Aros):
+    sted: <Aarhus>.
+  "Statens Museum for Kunst":
+    sted: <København>.
+  "Tivoli Friheden":
+    sted: <Århus>.
+  "Givskud Zoo":
+    sted: <Givskud>.
+  "BonBon land":
+    sted: <Holmegaard>.
+  "Aalborg zoo":
+    sted: <Aalborg>.
+}

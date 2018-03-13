@@ -1,0 +1,51 @@
+>> hvad_hvem_er (emne)
+>> kendt_ord (emne)
+# Lookup any RDF data available
+! call RDF.Query("
+SELECT ?name ?typeName ?intro ?typeEr ?topic
+WHERE
+{
+  ?subj rdfs:label ?name.
+  ?subj zp:knownby ?emne.
+  ?subj rdf:type ?type.
+  OPTIONAL {?subj zp:intro ?intro}
+  OPTIONAL {?type rdfs:label ?typeName}
+  OPTIONAL {?type zp:er ?typeEr}
+  OPTIONAL {?subj zp:topic ?topic}
+  FILTER (?emne = lcase(@emne))
+}
+LIMIT 1
+")
+# If the result has a topic associated to it, then try to set that as the current chat topic
+! call RDF.TrySetTopic($_, "topic")
+: <result:{r |<if(r.intro)><r.intro><elseif(r.typeEr)><r.name> <r.typeEr><elseif(r.typeName)><r.name>: <r.typeName>.<endif>}>
+{empty}: Jeg ved desværre ikke noget om <emne>
+{empty}: Jeg kender ikke noget til <emne>. Beklager.
+{empty}: Det ved jeg ikke.
+{empty}: Hvis bare jeg vidste det.
+{empty}: Hmmm.
+{empty}: Aner det ikke.
+
+>> { intent = hvad_hvem_er }
+: Det kan jeg desværre ikke svare på
+
+
+>> hvilke_kender_du (emne)
+! call RDF.Query("
+SELECT ?name
+WHERE
+{
+  ?subj rdf:type ?type.
+  ?subj rdfs:label ?name.
+  ?type rdf:type rdfs:Class.
+  ?type zp:knownby ?emne
+  FILTER (?emne = lcase(@emne))
+}
+ORDER BY RAND()
+LIMIT 5
+")
+:Hvad med for eksempel <result:{r | <r.name>};separator=", ">
+{empty}: Jeg kender desværre ikke nogen eller noget <emne>.
+
+>> hvilke_kender_du
+: Det gør jeg desværre ikke.
