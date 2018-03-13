@@ -1,0 +1,22 @@
+﻿
+
+! define (person)
+{
+  "Noah":
+    mening: <pizza_mening>.
+}
+
+! define (mening)
+{
+  pizza_mening:
+    emne: <Pizza>;
+    intro: "Jeg elsker pizza.";
+    kan_lide: 1.
+  fisk_mening:
+    emne: <fisk>;
+    intro: "Fisk er godt.";
+    kan_lide: 1.
+  slange_mening:
+    emne: <slange>;
+    kan_lide: 0.
+}

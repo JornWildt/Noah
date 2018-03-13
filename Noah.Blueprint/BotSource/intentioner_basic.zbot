@@ -16,7 +16,6 @@
   > hvad hedder {emne}
   > hvad er navnet på {emne}
   > hvad er {emne} navn
-  > hvad mener du om {emne}
   > hvad vil det sige "at" være {emne}
 }
 
@@ -60,14 +59,6 @@
   > tror du på {emne}
   > tror du "at" {emne} eksisterer
   > tror du "at" {emne} findes
-}
-
-! pattern (intent = kan_du_lide, type = spm)
-{
-  > kan du lide {emne}
-  > hvad syntes du om {emne}
-  > hvad mener du om {emne}
-  > holder du af {emne}
 }
 
 ! pattern (intent = har_du_set, type = spm)

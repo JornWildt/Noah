@@ -47,8 +47,8 @@
 
 ! pattern (intent = spiser_du, type = spm)
 {
-  > spiser du {emne}
-  > kan du lide {emne}
+  > spiser %du {emne}
+  > kan %du lide {emne}
 }
 
 ! pattern (intent = hvor_bor_du, type = spm)
@@ -64,7 +64,7 @@
   > er du sikker
   > er du sikker på det
   > mener du det
-  > emenr du virkelig det
+  > mener du virkelig det
   > er du helt sikker
   > er du bombesikker
 }
@@ -72,6 +72,27 @@
 ! pattern (intent = er_du, type = spm)
 {
   > er du {emne}
+}
+
+! pattern (intent = kan_du_lide, type = spm)
+{
+  > kan du lide {emne}
+  > holder du af {emne}
+}
+
+! pattern (intent = hvad_mener_du_om, type = spm)
+{
+  > hvad mener du om {emne}
+  > hvad syntes du om {emne}
+  > mener du noget om {emne}
+}
+
+! pattern (intent = hvor_blev_du_født, type = udsagn)
+{
+  > hvor blev du født
+  > hvor er du født
+  > hvad er dit fødested
+  > hvor kommer du fra
 }
 
 ! pattern (intent = du_er_fantastisk, type = udsagn)
@@ -82,14 +103,6 @@
   > du er utrolig
   > du er så sød
   > du er %klog
-}
-
-! pattern (intent = hvor_blev_du_født, type = udsagn)
-{
-  > hvor blev du født
-  > hvor er du født
-  > hvad er dit fødested
-  > hvor kommer du fra
 }
 
 ! pattern (intent = du_gentager_dig_selv, type = udsagn)

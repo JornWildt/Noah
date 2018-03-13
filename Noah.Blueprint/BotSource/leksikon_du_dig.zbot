@@ -1,0 +1,63 @@
+﻿>> kan_du_lide (emne)
+# Lookup any RDF data available
+! call RDF.Query("
+SELECT ?intro ?topic
+WHERE
+{
+  ?subj zp:knownby ?emne.
+  OPTIONAL 
+  {
+    ?mening zp:emne ?subj.
+    OPTIONAL {?mening zp:intro ?intro.}
+    OPTIONAL {?mening zp:kan_lide ?kan_lide}
+  }  
+  OPTIONAL {?subj zp:topic ?topic}
+  FILTER (?emne = lcase(@emne))
+}
+LIMIT 5
+")
+# If the result has a topic associated to it, then try to set that as the current chat topic
+! call RDF.TrySetTopic($_, "topic")
+: <result:{r |<if(r.intro)><r.intro><elseif(r.kan_lide)>Ja<else>Tjah<endif>}>
+{empty}: Hvad er <emne>?
+{empty}: Jeg kender ikke noget til <emne>. Beklager.
+{Empty}: Måske?
+{Empty}: Det ved jeg ikke.
+{Empty}: Tjah ...
+{Empty}: Der er så meget jeg kan lide. Måske?
+
+
+>> kan_du_lide
+: Måske ... det er ikke noget jeg kender?
+: Tjah?
+: Hvad er det?
+
+#######################################################
+
+>> hvad_mener_du_om (emne)
+# Lookup any RDF data available
+! call RDF.Query("
+SELECT ?intro ?topic
+WHERE
+{
+  ?subj zp:knownby ?emne.
+  ?mening zp:emne ?subj.
+  ?mening zp:intro ?intro.
+  FILTER (?emne = lcase(@emne))
+}
+LIMIT 5
+")
+# If the result has a topic associated to it, then try to set that as the current chat topic
+! call RDF.TrySetTopic($_, "topic")
+: <result:{r |<r.intro>}>
+{empty}: Hvad er <emne>?
+{empty}: Jeg kender ikke noget til <emne>. Beklager.
+{Empty}: Det ved jeg ikke.
+{Empty}: Tjah ...
+{Empty}: Det har jeg ikke rigtigt nogen holdning til.
+{Empty}: Ikke noget. Burde jeg det?
+
+>> hvad_mener_du_om
+: Tjah?
+: Hvad er det?
+
