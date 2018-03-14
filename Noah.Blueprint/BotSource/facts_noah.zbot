@@ -1,12 +1,4 @@
-﻿
-
-! define (person)
-{
-  "Noah":
-    mening: <pizza_mening>.
-}
-
-! define (mening)
+﻿! define (mening)
 {
   pizza_mening:
     emne: <Pizza>;

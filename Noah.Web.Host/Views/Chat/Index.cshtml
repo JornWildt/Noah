@@ -4,10 +4,11 @@
   ViewBag.Title = "Sig hej til Noah";
 }
 
-<div class="row">
-  <div class="col-md-4">
-    <h2>Snak med mig</h2>
-    <div class="chat" id="chat">
+<h2>Snak med mig</h2>
+
+<div class="row" id="chat">
+  <div class="col-md-8">
+    <div class="chat">
       <div class="chat-header">
         <div class="chat-with">Chat med Noah</div>
         <div class="chat-with-details">Info om Noah ...</div>
@@ -27,6 +28,12 @@
         <textarea v-model="input" id="chatInput"></textarea>
         <button v-on:click="say">Send</button>
       </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="connection-info" v-if="connectionInfoVisible">
+      <div class="connection-msg">{{connectionMessage}}</div>
+      <button v-on:click="reconnect" v-if="reconnectVisible">Reconnect</button>
     </div>
   </div>
 </div>
