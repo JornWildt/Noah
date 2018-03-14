@@ -28,6 +28,7 @@ LIMIT 5
 
 
 >> kan_du_lide
+! weight 0.9
 : Måske ... det er ikke noget jeg kender?
 : Tjah?
 : Hvad er det?
@@ -58,6 +59,7 @@ LIMIT 5
 {Empty}: Ikke noget. Burde jeg det?
 
 >> hvad_mener_du_om
+! weight 0.9
 : Tjah?
 : Hvad er det?
 
