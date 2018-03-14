@@ -15,13 +15,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elfisk.ECS.Core", "Elfisk\E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elfisk.ECS.Service", "Elfisk\Elfisk.ECS\Elfisk.ECS.Service\Elfisk.ECS.Service.csproj", "{302E9443-5ED2-4F09-97E6-6D8B6945EED4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZimmerBot.Core", "ZimmerBot\ZimmerBot.Core\ZimmerBot.Core.csproj", "{8EC30AE6-170E-4621-AE14-4A3985E3D062}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noah.Common", "Noah.Common\Noah.Common.csproj", "{8F8D04FB-8DD6-4BC4-81BE-8830E7A0B435}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noah.Web.Host", "Noah.Web.Host\Noah.Web.Host.csproj", "{8FAD44B3-CE8A-4B64-A308-B7FE0B1982B7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noah.Web", "Noah.Web\Noah.Web.csproj", "{4A7439E8-7C41-4B7C-A05B-95C0180680FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZimmerBot.Core", "..\ZimmerBot\ZimmerBot.Core\ZimmerBot.Core.csproj", "{8EC30AE6-170E-4621-AE14-4A3985E3D062}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +53,6 @@ Global
 		{302E9443-5ED2-4F09-97E6-6D8B6945EED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{302E9443-5ED2-4F09-97E6-6D8B6945EED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{302E9443-5ED2-4F09-97E6-6D8B6945EED4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8EC30AE6-170E-4621-AE14-4A3985E3D062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8EC30AE6-170E-4621-AE14-4A3985E3D062}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8EC30AE6-170E-4621-AE14-4A3985E3D062}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8EC30AE6-170E-4621-AE14-4A3985E3D062}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8F8D04FB-8DD6-4BC4-81BE-8830E7A0B435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8F8D04FB-8DD6-4BC4-81BE-8830E7A0B435}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F8D04FB-8DD6-4BC4-81BE-8830E7A0B435}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,6 +65,10 @@ Global
 		{4A7439E8-7C41-4B7C-A05B-95C0180680FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A7439E8-7C41-4B7C-A05B-95C0180680FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A7439E8-7C41-4B7C-A05B-95C0180680FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EC30AE6-170E-4621-AE14-4A3985E3D062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC30AE6-170E-4621-AE14-4A3985E3D062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC30AE6-170E-4621-AE14-4A3985E3D062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC30AE6-170E-4621-AE14-4A3985E3D062}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

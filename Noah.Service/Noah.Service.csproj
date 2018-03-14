@@ -129,6 +129,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ZimmerBot\ZimmerBot.Core\ZimmerBot.Core.csproj">
+      <Project>{8ec30ae6-170e-4621-ae14-4a3985e3d062}</Project>
+      <Name>ZimmerBot.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Elfisk\Elfisk.Commons\Elfisk.Commons.csproj">
       <Project>{4bcfa333-8a2c-4726-9da5-33174b4e7309}</Project>
       <Name>Elfisk.Commons</Name>
@@ -148,10 +152,6 @@
     <ProjectReference Include="..\Noah.Common\Noah.Common.csproj">
       <Project>{8f8d04fb-8dd6-4bc4-81be-8830e7a0b435}</Project>
       <Name>Noah.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ZimmerBot\ZimmerBot.Core\ZimmerBot.Core.csproj">
-      <Project>{8ec30ae6-170e-4621-ae14-4a3985e3d062}</Project>
-      <Name>ZimmerBot.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
