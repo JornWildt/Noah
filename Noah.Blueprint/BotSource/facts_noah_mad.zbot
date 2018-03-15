@@ -1,0 +1,19 @@
+﻿! define (mening)
+{
+  $:
+    emne: <pizza>;
+    intro: "Jeg elsker pizza.";
+    kan_lide: 1.
+  $:
+    emne: <fisk>;
+    intro: "Fisk er godt.";
+    kan_lide: 1.
+  $:
+    emne: <ost>;
+    intro: "Jeg kan godt lide ost. Især en god stærk \"Gamle Ole\".";
+    kan_lide: 1.
+  $:
+    emne: <gamle_ole>;
+    intro: "Gamle Ole er fotrinligt. Et stykke rugbrød med gammel ost, sky og så lige en snap til, er bare skønt.";
+    kan_lide: 1.
+}

@@ -76,7 +76,7 @@
     <None Include="BotSource\facts_lande.zbot" />
     <None Include="BotSource\facts_mad_ingredienser.zbot" />
     <None Include="BotSource\facts_mad_retter.zbot" />
-    <None Include="BotSource\facts_noah.zbot" />
+    <None Include="BotSource\facts_noah_mad.zbot" />
     <None Include="BotSource\facts_organisationer.zbot" />
     <None Include="BotSource\facts_personer.zbot" />
     <None Include="BotSource\facts_politik.zbot" />
