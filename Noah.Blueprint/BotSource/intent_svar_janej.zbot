@@ -1,0 +1,101 @@
+﻿! pattern (intent = ja, type = udsagn)
+{
+  > ja
+  > jatak
+  > ja tak
+  > jaja
+  > gerne
+  > yep
+  > yes
+  > ok
+  > okay
+  > nemlig
+  > jep
+  > check
+  > right
+  > helt sikkert
+  > absolut
+  > meget
+  > hørt
+  > selvfølgelig
+}
+
+! pattern (intent = nej, type = udsagn)
+{
+  > nej
+  > niks
+  > nix
+  > no
+  > nope
+  > nej tak
+  > nejtak
+  > næh
+  > ikke
+  > helst ikke
+  > egentlig ikke
+  > absolut ikke
+  > bestemt ikke
+  > heller ikke
+  > overhovedet ikke
+  > stop
+}
+
+! pattern (intent = nej, type = udsagn, holdning = neg)
+{
+  > du kan rende mig
+  > du kan rende mig noget så grusomt
+  > skrid
+  > hold nu op
+  > kæft
+  > hold kæft
+  > rager ikke dig
+  > rend mig
+}
+
+! pattern (intent = enig, type = udsagn)
+{
+  > enig
+  > helt enig
+  > det har du ret i
+  > nemlig
+  > det mener jeg også
+  > det gør jeg også
+  > helt og aldeles enig
+  > jeg tror dig
+  > jeg tror på dig
+  > det er jeg enig i
+  > helt klart
+  > det gør jeg også
+  > det mener jeg også
+  > det holder jeg også på
+  > det ved jeg
+  > kunne ikke være mere enig
+  > jeg kan ikke være mere enig
+  > jeg tror dig
+  > det tror jeg også
+  > smukt
+  > sådan
+  > flot
+  > fornemt
+  > godt
+}
+
+! concept vrøvl = vrøvl, sludder, ævl, pølsesnak
+
+! pattern (intent = uenig, type = udsagn, holdning = neg)
+{
+  > %vrøvl
+  > sikke noget %vrøvl
+  > Det er godt med dig
+  > Den er god med dig
+  > %du snakker
+  > forkert
+  > det passer ikke
+  > løgn
+  > fake news
+  > det gør jeg ikke
+  > spis brød til
+  > glem det
+  > rend og hop
+  > hop i havet
+}

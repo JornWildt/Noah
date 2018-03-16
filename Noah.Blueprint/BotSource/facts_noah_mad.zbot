@@ -1,19 +1,15 @@
 ﻿! define (mening)
 {
-  $:
-    emne: <pizza>;
-    intro: "Jeg elsker pizza.";
-    kan_lide: 1.
-  $:
-    emne: <fisk>;
-    intro: "Fisk er godt.";
-    kan_lide: 1.
-  $:
-    emne: <ost>;
-    intro: "Jeg kan godt lide ost. Især en god stærk \"Gamle Ole\".";
-    kan_lide: 1.
-  $:
-    emne: <gamle_ole>;
-    intro: "Gamle Ole er fotrinligt. Et stykke rugbrød med gammel ost, sky og så lige en snap til, er bare skønt.";
-    kan_lide: 1.
+  $: emne: <pizza>; kan_lide: 1;
+     intro: "Jeg elsker pizza.".
+  $: emne: <risengrød>; kan_lide: 1;
+     intro: "Mums. Risengrød.".
+  $: emne: <jordbærkage>; kan_lide: 1;
+     intro: "Et stykke jordbærkage på en varm sommerdag og noget af det bedste jeg kender.".
+  $: emne: <fisk>; kan_lide: 1;
+     intro: "Fisk er godt.".
+  $: emne: <ost>; kan_lide: 1;
+     intro: "Jeg kan godt lide ost. Især en god stærk \"Gamle Ole\".".
+  $: emne: <gamle_ole>; kan_lide: 1;
+     intro: "Gamle Ole er fotrinligt. Et stykke rugbrød med gammel ost, sky og så lige en snap til, er bare skønt.".
 }

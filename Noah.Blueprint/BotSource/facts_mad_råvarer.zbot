@@ -30,16 +30,7 @@
     er: "er en lille plante.".
 }
 
-! define (ingrediens, råvare, spiseligt, madvare, pålæg)
-{
-  "leverpostej" (leverpostejen):.
-  "spegepølse" (spegepølsen, spegepølser, spegepølserne):.
-  "hønsesalat" (hønsesalaten):.
-  "skinkesalat" (skinkesalaten):.
-  "filet":.
-}
-
-! define (ingrediens, råvare, spiseligt, madvare, frugt, grøntsag)
+! define (råvare, spiseligt, madvare, frugt, grøntsag)
 {
   "æble" (æblet, æblerne):.
   "banan" (bananer, bananerne):.
@@ -65,9 +56,12 @@
   "selleri" (sellerien, sellerierne):.
   "rodselleri" (rodsellerien):.
   "knoldselleri" (knoldsellerien, knoldsellerier, knoldsellerierne):.
+  "rødbede" (rødbeden, rødbeder, rødbederne):.
+  "løg" (løget, løgene):.
+  "hvidløg" (hvidløget, hvidløgene):.
 }
 
-! define (ingrediens, råvare, spiseligt, madvare, fisk, seafood)
+! define (råvare, spiseligt, madvare, fisk)
 {
   "laks" (laksen, laksene):.
   "ørred":.
@@ -77,9 +71,12 @@
   "knurhane" (knurhanen):.
   "skrubbe" (skrubben, skrubber, skrubberne):.
   "krebs":.
+  "østers":.
+  "musling" (muslingen, muslinger, muslingerne):.
+  "blæksprutte" (blæksprutten, blæksprutterm, blæksprutterne):.
 }
 
-! define (ingrediens, råvare, spiseligt, madvare, ost, pålæg)
+! define (råvare, spiseligt, madvare, ost, pålæg)
 {
   "parmesanost" (parmesan, parmesanen, parmesanosten, "parmesan ost", "parmesan osten"):.
   "ost" (osten, osten, ostene):.
@@ -88,7 +85,7 @@
   "gamle ole" ("gammel ost"):.
 }
 
-! define (ingrediens, råvare, spiseligt, madvare, krydderi)
+! define (råvare, spiseligt, madvare, krydderi)
 {
   "salt" (saltet):.
   "peber" (peberet):.
@@ -96,9 +93,10 @@
   "timian" (timianen):.
   "salvie" (salvien):.
   "mynte" (mynten, mynthe, mynthen):.
+  "spidskommen":.
 }
 
-! define (ingrediens, drikkeligt, drikkevare)
+! define (drikkeligt, drikkevare)
 {
   "vand" (vandet):.
   "saftevand" (saft, saftevandet, saften):.
@@ -115,7 +113,7 @@
   "kærnemælk" (kærnemælken):.
 }
 
-! define (ingrediens, drikkeligt, drikkevare, spiritus)
+! define (drikkeligt, drikkevare, spiritus)
 {
   "vin" (vinene, vinene):.
   "rødvin" (rødvinene, rødvinene):.
@@ -129,14 +127,27 @@
   "portvin":.
 }
 
-! define (ingrediens, råvare, spiseligt, madvare)
+! define (råvare, spiseligt, madvare, gryn)
 {
-  "rugbrød" (rugbrødet):.
-  "franskbrød" ("fransk brød"):.
-  "boller" (bolle, bollen, bollerne):.
-  "sandwichbrød":.
-  "burgerboller" (burgerbollen, burgerboller, burgerbollerne):.
-  "knækbrød" (knækbrødet):.
+  "havregryn" (havregrynene):.
+  "müsli" (musli):.
+  "cornflakes":.
+  "mel":.
+  "rugmel":.
+  "hvedemel":.
+}
+
+! define (råvare, spiseligt, madvare, snack)
+{
+  "flæskesvær":.
+  "chips":.
+  "peanuts":.
+  "jordnød" (jordnødden, jordnødder, jordnødderne):.
+  "popcorn":.
+}
+
+! define (råvare, spiseligt, madvare, kød)
+{
   "hakket oksekød":.
   "hakket kalvekød":.
   "hakket svinekød":.
@@ -156,6 +167,10 @@
   "filet":.
   "tyndsteg" (tyndstegen):.
   "oksehale" (oksehalen):.
+}
+
+! define (råvare, spiseligt, madvare)
+{
   "ymer" (ymeren):.
   "yoghurt" (yoghurten):.
   "skyr":.
@@ -168,7 +183,6 @@
   "gær" (gæren):.
   "skinke" (skinken, skinker, skinkerne):.
   "ris" (risene):.
-  "mel":.
   "pasta":.
   "spaghetti":.
   "nudler":.

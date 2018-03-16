@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="BotSource\concepter_basis.zbot" />
+    <None Include="BotSource\intentioner_jeg.zbot" />
     <None Include="BotSource\facts_danske_byer.zbot" />
     <None Include="BotSource\facts_danske_seværdigheder.zbot" />
     <None Include="BotSource\facts_dyr_fisk.zbot" />
@@ -74,7 +75,7 @@
     <None Include="BotSource\facts_film.zbot" />
     <None Include="BotSource\facts_hovedstæder.zbot" />
     <None Include="BotSource\facts_lande.zbot" />
-    <None Include="BotSource\facts_mad_ingredienser.zbot" />
+    <None Include="BotSource\facts_mad_råvarer.zbot" />
     <None Include="BotSource\facts_mad_retter.zbot" />
     <None Include="BotSource\facts_noah_mad.zbot" />
     <None Include="BotSource\facts_organisationer.zbot" />
@@ -85,6 +86,11 @@
     <None Include="BotSource\geografi.zbot" />
     <None Include="BotSource\intentioner_basic.zbot" />
     <None Include="BotSource\intentioner_du_dig.zbot" />
+    <None Include="BotSource\intentioner_reaktioner.zbot" />
+    <None Include="BotSource\intentioner_spm_personlige.zbot" />
+    <None Include="BotSource\intentioner_spm_generelt.zbot" />
+    <None Include="BotSource\intentioner_spm_jeg.zbot" />
+    <None Include="BotSource\intent_svar_janej.zbot" />
     <None Include="BotSource\leksikon.zbot" />
     <None Include="BotSource\leksikon_du_dig.zbot" />
     <None Include="BotSource\rdf.zbot" />

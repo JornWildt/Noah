@@ -1,0 +1,79 @@
+﻿! pattern (intent = ulækkert, type = reaktion, holdning = neg)
+{
+  > klamt
+  > ulækkert
+  > adr
+  > hvor er det klamt
+  > hvor er det ulækkert
+  > puha
+  > yuck
+  > badr
+  > bvadr
+}
+
+! pattern (intent = forbløffet, type = reaktion, holdning = pos)
+{
+  > wow
+  > wtf
+  > duh
+  > doh
+  > what the fuck
+  > verdammt
+  > tak for kaffe
+  > av min arm
+  > av for den
+  > hold da fest
+  > uha
+  > uhadada
+  > huh
+  > vildt
+  > åhåh
+  > åh nej
+  > nøj
+  > nøøj
+}
+
+! pattern (intent = afventende, type = reaktion, holdning = nul)
+{
+  > aha
+  > hmm
+  > hmmm
+  > hmmmm
+  > hmh
+  > okay
+}
+
+! pattern (intent = morsomt, type = reaktion, holdning = pos)
+{
+  > lol
+  > haha
+  > ha ha
+  > fnis
+  > griner
+  > sjovt
+  > hehe
+  > he he  
+}
+
+! pattern (intent = skuffet, type = reaktion, holdning = neg)
+{
+  > øv
+  > æv
+  > møg
+  > pis
+  > shit
+  > hvor ærgerligt
+  > suk
+}
+
+! pattern (intent = bande, type = reaktion, holdning = neg)
+{
+  > fuck
+  > for fanden
+  > scheisse
+  > verdammt
+  > pis
+  > lort
+  > pik
+  > shit
+}
