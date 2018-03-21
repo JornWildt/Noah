@@ -8,8 +8,10 @@
      intro: "Et stykke jordbærkage på en varm sommerdag og noget af det bedste jeg kender.".
   $: emne: <fisk>; kan_lide: 1;
      intro: "Fisk er godt.".
-  $: emne: <ost>; kan_lide: 1;
-     intro: "Jeg kan godt lide ost. Især en god stærk \"Gamle Ole\".".
+  $: emne: <fisk>; kan_lide: 1;
+     intro: "Fisk er godt.".
+  $: emne: <Hakkebøf med brun sovs>; kan_lide: 1;
+     intro: "Hakkebøf smager godt. Med løg - masser af brune løg.".
   $: emne: <gamle_ole>; kan_lide: 1;
      intro: "Gamle Ole er fotrinligt. Et stykke rugbrød med gammel ost, sky og så lige en snap til, er bare skønt.".
 }

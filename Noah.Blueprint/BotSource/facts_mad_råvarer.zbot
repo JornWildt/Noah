@@ -50,7 +50,8 @@
   "kål" (kålen, kålene):.
   "broccoli" (brokkoli, broccolien, brokkolien, broccolierne, brokkolierne):.
   "hvidkål" (hvidkålen, hvidkålene):.
-  "rødkål" (rødkålen, rødkålene):.
+  "rødkål" (rødkålen, grønkålene):.
+  "grønkål" (grønkålen, rødkålene):.
   "agurk" (agurken, agurker, agurkerne):.
   "tomat" (tomaten, tomater, tomaterne):.
   "selleri" (sellerien, sellerierne):.
@@ -59,6 +60,12 @@
   "rødbede" (rødbeden, rødbeder, rødbederne):.
   "løg" (løget, løgene):.
   "hvidløg" (hvidløget, hvidløgene):.
+  "purløg" (purløget):.
+  "jordbær" (jordbæret, jordbærene):.
+  "hindbær" (hindbæret, hindbærene):.
+  "brombær" (brombæret, brombærene):.
+  "blåbær" (blåbæret, blåbærene):.
+  "tyttebær" (tyttebæret, tyttebærene):.
 }
 
 ! define (råvare, spiseligt, madvare, fisk)
@@ -94,6 +101,11 @@
   "salvie" (salvien):.
   "mynte" (mynten, mynthe, mynthen):.
   "spidskommen":.
+  "paprika":.
+  "chili":.
+  "karry" (carry):.
+  "rød karry" ("rød carry"):.
+  "gul karry" ("gul carry"):.
 }
 
 ! define (drikkeligt, drikkevare)
@@ -167,6 +179,10 @@
   "filet":.
   "tyndsteg" (tyndstegen):.
   "oksehale" (oksehalen):.
+  "pølse" (pølsen, pølser, pølserne):.
+  "wienerpølse" (wienerpølsen, wienerpølser, wienerpølserne):.
+  "medisterpølse" (medisterpølsen, medisterpølser, medisterpølserne):.
+  "frankfurter" (frankfurteren):.
 }
 
 ! define (råvare, spiseligt, madvare)
@@ -177,6 +193,8 @@
   "creme fraiche" (cremefraiche):.
   "risifrutti":.
   "smør" (smøret):.
+  "fløde" (fløden):.
+  "piskefløde" (piskefløden):.
   "kærgården":.
   "margarine" (margarinen):.
   "æg" (ægget, æggene):.
@@ -186,4 +204,7 @@
   "pasta":.
   "spaghetti":.
   "nudler":.
+  "tomatpuré":.
+  "flåede tomater" ("hakkede tomater"):.
+  "ketchup":.
 }

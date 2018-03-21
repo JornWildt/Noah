@@ -39,19 +39,47 @@
     opskrift: "Bland en dej af mel, vand og gær. Lad den hæve lidt. Rul derefter ud på en bageplade, hæld tomatsovs over og drys fyldet ovenpå. Slut af med et godt drys ost.";
     ingrediens: <mel>, <vand>, <gær>, <salt>, <tomat>, <skinke>, <ost>.
   "frikadelle" (frikadellen, frikadeller, frikadellerne):.
+  "Frikadeller med kartofler og persillesovs":.
+  "Hakkebøf med brun sovs" ("Hakkebøf med løg", "Hakkebøf med brun sovs og kartofler", "Hakkebøf med sovs"):.
+  "Stegt rødspætte":.
+  "Kylling i karry":.
+  "Æggekage":.
+  "Gallasch":.
+  "Kalvetunge med peberrodssovs":.
+  "Gule ærter":.
+  "kalvelever med bløde løg og agurkesalat":.
+  "Bøf Stroganof":.
+  "Grønkålssuppe":.
+  "Benløse fugle":.
+  "Stegte sild" ("stegt sild"):.
+  "Æbleflæsk":.
+  "Pariserbøf":.
+  "Millionbøf":.
+  "Bøf Lindstrøm":.
+  "Medister med kartofler" ("Medisterpølse med kartofler"):.
+  "Kalvefrikassé" (Kalvefrikasse):.
+  "Skipperlapsskovs":.
+  "Boller i karry":.
+  "Stegt flæsk med persillesovs":.
   "fiskefilet" (fiskefiletten, fiskefiletter, fiskefeltterne):.
-  "svensk pølseret":
+  "Svensk pølseret":
     opskrift: "Hak løgene og svits dem i en gryde i smørret, til de er gyldne. Skær pølserne i skrå skiver. Skær kartofler i skiver. Svits pølserne med og drys paprika over. Bland det og skru ned til middel varme. Tilsæt tomatpuré, mælk, salt og peber. Kom kartoflerne i gryden og vend det forsigtigt, så kartoffelskiverne ikke går i stykker. Varm retten i ca. 5 minutter ved jævn varme, tilsæt fløde, smag til og server med klippet purløg.";
-    ingrediens: <løg>, <margarine>, <pølser>.
-  "forloren hare":.
-  "pasta med kødsovs" ("pasta bolognese", bolognese):.
+    ingrediens: <løg>, <margarine>, <wienerpølse>, <kartoffel>, <paprika>, <tomatpuré>, <ketchup>, <letmælk>, <salt>, <peber>, <fløde>, <purløg>.
+  "Forloren hare":.
+  "Pasta med kødsovs" ("Pasta bolognese", Bolognese, "Spaghetti med kødsovs"):.
   "tortillas med oksekød" ("mexikanske pandekager med oksekød"):.
+  "Grønlangkål" (grønlangkålen):.
 }
 
 
 ! define (spiseligt, madvare, mad_ret, opskrift, dessert)
 {
   "kærnemælkskoldskål" (kærnemælkskoldskålen, koldskål, koldskålen):.
+  "is" (isen, isene):.
+  "chokoladeis" (chokoladeisen, chokoladeisene):.
+  "vanilleis" (vanilleisen, vanilleisene):.
+  "jordbæris" (jordbærisen, jordbærisene):.
+  "nougatis" (nougatisen, nougatisene):.
 }
 
 
