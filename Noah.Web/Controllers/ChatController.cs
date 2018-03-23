@@ -5,6 +5,7 @@ namespace Noah.Web.Controllers
 {
   public class ChatController : Controller
   {
+    [Authorize]
     public ActionResult Index()
     {
       ChatModel model = new ChatModel

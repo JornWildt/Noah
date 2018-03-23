@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Security.Claims;
 using System.Web.Helpers;
 using System.Web.Mvc;
 using System.Web.Optimization;
@@ -12,8 +7,11 @@ using log4net;
 using log4net.Config;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin;
+using Microsoft.Owin.Host.SystemWeb;
 using Microsoft.Owin.Security.Cookies;
 using Owin;
+
+[assembly: OwinStartup(typeof(Noah.Web.OwinStartup))]
 
 namespace Noah.Web
 {
@@ -44,15 +42,23 @@ namespace Noah.Web
       app.UseCookieAuthentication(new CookieAuthenticationOptions
       {
         AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
-        LoginPath = new PathString("/Account/LogOn")
+        LoginPath = new PathString("/Account/Login")
+
+        // Some people report problems with OWIN and ASP.NET Cookie handling. Try this.
+        //CookieManager = new SystemWebChunkingCookieManager()
       });
 
 
       app.UseExternalSignInCookie(DefaultAuthenticationTypes.ExternalCookie);
 
       app.UseGoogleAuthentication(
-          clientId: "X",
-          clientSecret: "Y");
+          clientId: "7742859072-ijemv5qbtoor92ev3dfuisja9h8scb29.apps.googleusercontent.com",
+          clientSecret: "BjPsN-Nivs_RMcFrAZXi-Rf_");
+
+      /* Also remember
+       * - Set BOTH allowed return URL AND allowed javascript server/host in G-application.
+       * - Enable Google+ API in G-application.
+       */
 
       // App.Secrets is application specific and holds values in CodePasteKeys.json
       // Values are NOT included in repro – auto-created on first load

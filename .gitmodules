@@ -5,8 +5,3 @@
 [submodule "Elfisk.ECS"]
 	path = Elfisk/Elfisk.ECS
 	url = https://github.com/JornWildt/Elfisk.ECS
-
-[submodule "ZimmerBot"]
-	path = ZimmerBot
-	url = https://github.com/JornWildt/ZimmerBot
-        
