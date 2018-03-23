@@ -96,16 +96,21 @@
 {
   "salt" (saltet):.
   "peber" (peberet):.
-  "oregano" (oreganoen):.
-  "timian" (timianen):.
-  "salvie" (salvien):.
-  "mynte" (mynten, mynthe, mynthen):.
   "spidskommen":.
   "paprika":.
   "chili":.
   "karry" (carry):.
   "rød karry" ("rød carry"):.
   "gul karry" ("gul carry"):.
+}
+
+! define (råvare, spiseligt, madvare, krydderi, krydderurt)
+{
+  "oregano" (oreganoen):.
+  "timian" (timianen):.
+  "salvie" (salvien):.
+  "mynte" (mynten, mynthe, mynthen):.
+  "persille" (persillen):.
 }
 
 ! define (drikkeligt, drikkevare)
