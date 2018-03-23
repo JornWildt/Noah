@@ -52,8 +52,8 @@ namespace Noah.Web
       app.UseExternalSignInCookie(DefaultAuthenticationTypes.ExternalCookie);
 
       app.UseGoogleAuthentication(
-          clientId: "7742859072-ijemv5qbtoor92ev3dfuisja9h8scb29.apps.googleusercontent.com",
-          clientSecret: "BjPsN-Nivs_RMcFrAZXi-Rf_");
+          clientId: "",
+          clientSecret: "");
 
       /* Also remember
        * - Set BOTH allowed return URL AND allowed javascript server/host in G-application.
