@@ -1,5 +1,7 @@
-﻿using System.Web.Mvc;
+﻿using System.Web;
+using System.Web.Mvc;
 using Noah.Web.Models;
+using Noah.Web.Utilities;
 
 namespace Noah.Web.Controllers
 {
@@ -10,7 +12,8 @@ namespace Noah.Web.Controllers
     {
       ChatModel model = new ChatModel
       {
-        ServerUrl = WebAppSettings.ServerUrl.Value
+        ServerUrl = WebAppSettings.ServerUrl.Value,
+        ServerToken = SecurityUtilities.GenerateServerToken(HttpContext.GetOwinContext().Authentication)
       };
 
       return View(model);

@@ -1,14 +1,43 @@
-﻿using Microsoft.AspNet.SignalR;
+﻿using System;
+using log4net;
+using Microsoft.AspNet.SignalR;
+using Microsoft.IdentityModel.Tokens;
 using Noah.Common;
+using Noah.Service.Utilities;
 using ZimmerBot.Core;
 
 namespace Noah.Service.Hubs
 {
   public class MessageHub : Hub<IClientContract>, IServerHub
   {
-    public void Say(string text)
+    private static ILog Logger = LogManager.GetLogger(typeof(MessageHub));
+
+    public void Say(string token, string text)
     {
-      NoahService.NoahBotHandle.Invoke(new Request { Input = text });
+      try
+      {
+        string userId = SecurityUtilities.VerifyToken(token);
+
+        if (NoahService.NoahBotHandle != null)
+        {
+          NoahService.NoahBotHandle.Invoke(new Request
+          {
+            Input = text,
+            SessionId = userId,
+            UserId = userId
+          });
+        }
+      }
+      catch (SecurityTokenInvalidSignatureException ex)
+      {
+        Logger.Error(ex);
+        throw new HubException("Ingen adgang.");
+      }
+      catch (Exception ex)
+      {
+        Logger.Error(ex);
+        throw new HubException(ex.Message);
+      }
     }
   }
 }

@@ -187,6 +187,7 @@
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="secrets.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Noah.Web\Noah.Web.csproj">

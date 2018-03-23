@@ -2,6 +2,6 @@
 {
   public interface IServerHub
   {
-    void Say(string text);
+    void Say(string token, string text);
   }
 }

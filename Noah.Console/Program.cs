@@ -50,7 +50,7 @@ namespace Noah.Console
 
         if (!string.IsNullOrEmpty(input))
         {
-          MessageHub.Call(hub => hub.Say(input));
+          MessageHub.Call(hub => hub.Say("X", input));
         }
       }
       while (!string.IsNullOrEmpty(input));

@@ -19,7 +19,8 @@
       say: function (event) {
         if (this.input) {
           AddMyChatEntry(data, this.input);
-          chatProxy.server.say(this.input);
+          chatProxy.server.say(ServerToken, this.input)
+                          .fail(function(e) { window.alert(e.message) });
           this.input = "";
         }
         SetFocusInInput();
