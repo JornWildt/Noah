@@ -43,45 +43,20 @@ namespace Noah.Web
       {
         AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
         LoginPath = new PathString("/Account/Login")
-
-        // Some people report problems with OWIN and ASP.NET Cookie handling. Try this.
-        //CookieManager = new SystemWebChunkingCookieManager()
       });
 
 
       app.UseExternalSignInCookie(DefaultAuthenticationTypes.ExternalCookie);
 
-      app.UseGoogleAuthentication(
-          clientId: "",
-          clientSecret: "");
-
-      /* Also remember
+      /* Remember
+       * - Use HTTPS
        * - Set BOTH allowed return URL AND allowed javascript server/host in G-application.
-       * - Enable Google+ API in G-application.
+       * - Enable Google+ API in G-application as the authentication accesses it for further user information.
        */
 
-      // App.Secrets is application specific and holds values in CodePasteKeys.json
-      // Values are NOT included in repro – auto-created on first load
-      //if (!string.IsNullOrEmpty(App.Secrets.GoogleClientId))
-      //{
-      //  app.UseGoogleAuthentication(
-      //      clientId: App.Secrets.GoogleClientId,
-      //      clientSecret: App.Secrets.GoogleClientSecret);
-      //}
-
-      //if (!string.IsNullOrEmpty(App.Secrets.TwitterConsumerKey))
-      //{
-      //  app.UseTwitterAuthentication(
-      //      consumerKey: App.Secrets.TwitterConsumerKey,
-      //      consumerSecret: App.Secrets.TwitterConsumerSecret);
-      //}
-
-      //if (!string.IsNullOrEmpty(App.Secrets.GitHubClientId))
-      //{
-      //  app.UseGitHubAuthentication(
-      //      clientId: App.Secrets.GitHubClientId,
-      //      clientSecret: App.Secrets.GitHubClientSecret);
-      //}
+      app.UseGoogleAuthentication(
+          clientId: WebAppSettings.GoogleClientID,
+          clientSecret: WebAppSettings.GoogleClientSecret);
 
       AntiForgeryConfig.UniqueClaimTypeIdentifier = ClaimTypes.NameIdentifier;
     }

@@ -139,7 +139,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\ChallengeResult.cs" />
+    <Compile Include="Utilities\ChallengeResult.cs" />
     <Compile Include="Controllers\ChatController.cs" />
     <Compile Include="Models\ChatModel.cs" />
     <Compile Include="Models\ExternalLoginListViewModel.cs" />

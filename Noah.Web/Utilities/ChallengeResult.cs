@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web;
+﻿using System.Web;
 using System.Web.Mvc;
 using Microsoft.Owin.Security;
 
-namespace Noah.Web.Controllers
+namespace Noah.Web.Utilities
 {
   internal class ChallengeResult : HttpUnauthorizedResult
   {

@@ -9,6 +9,7 @@ using log4net;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
+using Noah.Web.Utilities;
 
 namespace Noah.Web.Controllers
 {
@@ -17,6 +18,12 @@ namespace Noah.Web.Controllers
   {
     private static ILog Logger = LogManager.GetLogger(typeof(AccountController));
 
+    /// <summary>
+    /// Show login page.
+    /// </summary>
+    /// <param name="returnUrl"></param>
+    /// <returns></returns>
+    [HttpGet]
     [AllowAnonymous]
     public ActionResult Login(string returnUrl)
     {
@@ -25,14 +32,17 @@ namespace Noah.Web.Controllers
     }
 
 
+    /// <summary>
+    /// Handle external login request (from login button).
+    /// </summary>
+    /// <param name="provider"></param>
+    /// <param name="returnUrl"></param>
+    /// <returns></returns>
     [HttpPost]
     [AllowAnonymous]
     [ValidateAntiForgeryToken]
     public ActionResult ExternalLogin(string provider, string returnUrl)
     {
-      ControllerContext.HttpContext.Session.RemoveAll();
-      //Session["Workaround"] = 0;
-
       // Request a redirect to the external login provider
       return new ChallengeResult(provider, Url.Action("ExternalLoginCallback", "Account", new { ReturnUrl = returnUrl }));
     }
@@ -51,13 +61,18 @@ namespace Noah.Web.Controllers
         return RedirectToAction("Login");
       }
 
-      Logger.Debug($"Logged in as '{loginInfo.Email}'.");
+      string name = loginInfo.ExternalIdentity.Name;
+      string email = loginInfo.Email;
+      string userId = loginInfo.Login.LoginProvider + "-" + loginInfo.ExternalIdentity.FindFirstValue(ClaimTypes.NameIdentifier);
+
+      Logger.Debug($"Logged in as '{name}' - '{email}' ({userId}).");
 
       var claims = new List<Claim>();
 
       // create required claims
-      claims.Add(new Claim(ClaimTypes.NameIdentifier, loginInfo.Email));
-      claims.Add(new Claim(ClaimTypes.Name, loginInfo.DefaultUserName));
+      claims.Add(new Claim(ClaimTypes.Email, email));
+      claims.Add(new Claim(ClaimTypes.Name, name));
+      claims.Add(new Claim(ClaimTypes.NameIdentifier, userId));
       var identity = new ClaimsIdentity(claims, DefaultAuthenticationTypes.ApplicationCookie);
 
       AuthenticationManager.SignIn(new AuthenticationProperties()

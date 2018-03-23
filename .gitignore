@@ -13,3 +13,4 @@ Logs/
 packages/
 TestResults/
 SciTE.session
+secrets.config
