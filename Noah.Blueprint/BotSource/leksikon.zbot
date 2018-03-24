@@ -49,3 +49,36 @@ LIMIT 5
 
 >> hvilke_kender_du
 : Det gør jeg desværre ikke.
+
+
+
+###########################
+
+# hvad spiser mus
+>> hvad_verb_subst (verb:verb, subst:subst)
+! call RDF.Query("
+SELECT ?subj ?svar ?aktivitet ?egenskab
+WHERE
+{
+  ?subj zp:knownby ?subst.
+  ?aktivitet zp:knownby ?verb.
+  ?aktivitet zp:egenskab ?egenskab.
+  ?subj ?egenskab ?subj_egenskab.
+  ?subj_egenskab rdfs:label ?svar
+  OPTIONAL {?subj zp:topic ?topic}
+  FILTER (?subst = lcase(@subst))
+  FILTER (?verb = lcase(@verb))
+}
+ORDER BY RAND()
+LIMIT 1
+")
+# If the result has a topic associated to it, then try to set that as the current chat topic
+! call RDF.TrySetTopic($_, "topic")
+: <result:{r | <r.svar> vil jeg mene}>
+: <result:{r | <r.svar>}>
+: <result:{r | Skulle det mon være <r.svar>?}>
+{empty}: Hmmm.
+
+>> { intent = hvad_verb_subst }
+!weight 0.9
+: Øh ...

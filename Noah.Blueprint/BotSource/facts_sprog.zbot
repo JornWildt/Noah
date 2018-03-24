@@ -1,4 +1,4 @@
-! define (type)
+! define (type, subst)
 {
   sprog:
     er: "er et sprog.";

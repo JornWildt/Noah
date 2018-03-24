@@ -1,10 +1,10 @@
-﻿! define (type)
+﻿! define (type, subst)
 {
   ingrediens (ingrediensen, ingredienser, ingredienserne):
     er: "er noget der indgår i en opskrift.".
   råvare (råvaren, råvarer, råvarerne):
     er: "er det vi bruger til at producere noget fra bunden af.".
-  spiseligt:
+  spiselig:
     er: "er noget der kan spises.".
   drikkeligt:
     er: "noget der kan drikkes.".
@@ -28,14 +28,26 @@
     er: "er noget vi kommer i maden for at give en særlig smag. Ofte er det vel tørrede urter.".
   urt (krydderurt, urter, krydderurter):
     er: "er en lille plante.".
+  nød (nødder):
+    er: "er hårde frugtkerner.".
 }
 
-! define (råvare, spiseligt, madvare, frugt, grøntsag)
+! define (råvare, spiselig, madvare, nød, subst)
+{
+  "nød" (nødden, nødder, nødderne):.
+  "hasselnød" (hasselnødden, hasselnødder, hasselnødderne):.
+  "valnød" (valnødden, valnødder, valnødderne):.
+  "jordnød" (jordnødden, jordnødder, jordnødderne):.
+  "ahorn":.
+}
+
+! define (råvare, spiselig, madvare, frugt, grøntsag, subst)
 {
   "æble" (æblet, æblerne):.
   "banan" (bananer, bananerne):.
   "appelsin" (appelsinen, appelsinerne):.
   "vindrue" (vindruen, vindruer, vindruerne, drue, druen, druerne):.
+  "rosin" (rosinen, rosiner, rosinerne):.
   "melon" (melonen, meloner, melonerne):.
   "pære" (pæren, pærer, pærerne):.
   "papaya":.
@@ -68,7 +80,7 @@
   "tyttebær" (tyttebæret, tyttebærene):.
 }
 
-! define (råvare, spiseligt, madvare, fisk)
+! define (råvare, spiselig, madvare, fisk, subst)
 {
   "laks" (laksen, laksene):.
   "ørred":.
@@ -83,7 +95,7 @@
   "blæksprutte" (blæksprutten, blæksprutterm, blæksprutterne):.
 }
 
-! define (råvare, spiseligt, madvare, ost, pålæg)
+! define (råvare, spiselig, madvare, ost, pålæg, subst)
 {
   "parmesanost" (parmesan, parmesanen, parmesanosten, "parmesan ost", "parmesan osten"):.
   "ost" (osten, osten, ostene):.
@@ -92,7 +104,7 @@
   "gamle ole" ("gammel ost"):.
 }
 
-! define (råvare, spiseligt, madvare, krydderi)
+! define (råvare, spiselig, madvare, krydderi, subst)
 {
   "salt" (saltet):.
   "peber" (peberet):.
@@ -104,7 +116,7 @@
   "gul karry" ("gul carry"):.
 }
 
-! define (råvare, spiseligt, madvare, krydderi, krydderurt)
+! define (råvare, spiselig, madvare, krydderi, krydderurt, subst)
 {
   "oregano" (oreganoen):.
   "timian" (timianen):.
@@ -113,7 +125,7 @@
   "persille" (persillen):.
 }
 
-! define (drikkeligt, drikkevare)
+! define (drikkeligt, drikkevare, subst)
 {
   "vand" (vandet):.
   "saftevand" (saft, saftevandet, saften):.
@@ -130,7 +142,7 @@
   "kærnemælk" (kærnemælken):.
 }
 
-! define (drikkeligt, drikkevare, spiritus)
+! define (drikkeligt, drikkevare, spiritus, subst)
 {
   "vin" (vinene, vinene):.
   "rødvin" (rødvinene, rødvinene):.
@@ -144,7 +156,7 @@
   "portvin":.
 }
 
-! define (råvare, spiseligt, madvare, gryn)
+! define (råvare, spiselig, madvare, gryn, subst)
 {
   "havregryn" (havregrynene):.
   "müsli" (musli):.
@@ -154,16 +166,15 @@
   "hvedemel":.
 }
 
-! define (råvare, spiseligt, madvare, snack)
+! define (råvare, spiselig, madvare, snack, subst)
 {
   "flæskesvær":.
   "chips":.
-  "peanuts":.
-  "jordnød" (jordnødden, jordnødder, jordnødderne):.
   "popcorn":.
+  "peanuts":.
 }
 
-! define (råvare, spiseligt, madvare, kød)
+! define (råvare, spiselig, madvare, kød, subst)
 {
   "hakket oksekød":.
   "hakket kalvekød":.
@@ -190,7 +201,7 @@
   "frankfurter" (frankfurteren):.
 }
 
-! define (råvare, spiseligt, madvare)
+! define (råvare, spiselig, madvare, subst)
 {
   "ymer" (ymeren):.
   "yoghurt" (yoghurten):.

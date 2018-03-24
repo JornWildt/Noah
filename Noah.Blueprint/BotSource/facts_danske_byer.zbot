@@ -1,4 +1,4 @@
-! define (by, sted)
+! define (by, sted, subst)
 {
   "Allerød":
     sted: <Danmark>.

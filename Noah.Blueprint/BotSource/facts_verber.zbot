@@ -1,0 +1,13 @@
+﻿! define (verb)
+{
+  drikke (drikker, drak, drik):
+    egenskab: drikke.
+  spise (spiser, spiste, spis):
+    egenskab: <P:føde>.
+  løbe (løber, løb, løb):
+    egenskab: hastighed.
+  gå (går, gik, gå):.
+  veje (vejer, vejede, vej):
+    egenskab: vægt.
+  køre (kører, kørte, kør):.
+}

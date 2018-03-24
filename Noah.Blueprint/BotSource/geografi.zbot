@@ -1,4 +1,4 @@
-! define (type)
+! define (type, subst)
 {
   by (byer):
     er: "er en by";

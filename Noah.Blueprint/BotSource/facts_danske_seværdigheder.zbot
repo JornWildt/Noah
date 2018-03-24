@@ -1,4 +1,4 @@
-! define (type)
+! define (type, subst)
 {
   seværdighed:
     er: "er en seværdighed".

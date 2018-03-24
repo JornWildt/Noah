@@ -1,4 +1,4 @@
-! define (type)
+! define (type, subst)
 {
   organisation:
     er: "er en organisation.".

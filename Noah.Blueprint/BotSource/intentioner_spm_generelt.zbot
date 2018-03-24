@@ -99,3 +99,17 @@
   > hvordan kan det dog være
 }
 
+
+
+! pattern (intent = hvad_verb_subst, type = spm)
+{
+  # hvad spiser heste
+  > hvad {verb} {subst}
+}
+
+! pattern (intent = hvad_verb_person, type = spm)
+{
+  # hvad hedder Lise Nielsen
+  # hvad spiser Peter Hansen
+  > hvad {verb} {person}
+}

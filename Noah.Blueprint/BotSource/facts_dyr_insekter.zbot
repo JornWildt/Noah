@@ -1,11 +1,11 @@
-! define (type)
+! define (type, subst)
 {
   insekt:
     er: "er et insekt".
 }
 
 
-! define (dyr, insekt)
+! define (dyr, insekt, subst)
 {
   "skorpion" (skorpionen):
     dyreklasse: insekt.

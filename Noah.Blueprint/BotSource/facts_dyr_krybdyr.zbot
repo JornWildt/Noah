@@ -1,10 +1,10 @@
-! define (type)
+! define (type, subst)
 {
   krybdyr:
     er: "er et krybdyr".
 }
 
-! define (dyr, krybdyr)
+! define (dyr, krybdyr, subst)
 {
   "krokodille" (krokodillen, krokodiller, krokodillerne):
     intro: "Krokodillen er et stort, kraftigt bygget, firbenlignende krybdyr med lang, flad snude og øjne, ører og næsebor placeret øverst på hovedet. Krokodillen svømmer godt og kan desuden bevæge sig på land.";

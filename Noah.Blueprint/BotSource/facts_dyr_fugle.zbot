@@ -1,11 +1,11 @@
-! define (type)
+! define (type, subst)
 {
   fugl:
     er: "er en fugl".
 }
 
 
-! define (dyr, fugl)
+! define (dyr, fugl, subst)
 {
   "fugl" (fuglen, fugle, fuglene):
     dyreklasse: fugl.

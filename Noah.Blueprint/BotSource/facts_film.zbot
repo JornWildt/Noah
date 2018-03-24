@@ -7,7 +7,7 @@
     medvirkende: <Daniel Radcliffe>, <Rupert Grint>, <Emma Watson>.
 }
 
-! define (type)
+! define (type, subst)
 {
   film:
     er: "er en film".

@@ -1,4 +1,4 @@
-﻿! define (type)
+﻿! define (type, subst)
 {
   mad_ret (ret):
     er: "er noget man spiser.".
@@ -13,13 +13,13 @@
 }
 
 
-! define (spiseligt, madvare, mad_ret, opskrift, morgenmad)
+! define (spiselig, madvare, mad_ret, opskrift, morgenmad)
 {
   "havregrød" (havregrøden):.
 }
 
 
-! define (spiseligt, madvare, mad_ret, pålæg, frokost)
+! define (spiselig, madvare, mad_ret, pålæg, frokost)
 {
   "leverpostej" (leverpostejen):.
   "spegepølse" (spegepølsen, spegepølser, spegepølserne):.
@@ -28,7 +28,7 @@
   "filet":.
 }
 
-! define (spiseligt, madvare, mad_ret, opskrift, hovedret)
+! define (spiselig, madvare, mad_ret, opskrift, hovedret)
 {
   "risengrød" (risengrøden):
     intro: "Risengrød er dejlig grød lavet af mælk og ris. Grøden *skal* serveres med kanelsukker og smør.";
@@ -72,7 +72,7 @@
 }
 
 
-! define (spiseligt, madvare, mad_ret, opskrift, dessert)
+! define (spiselig, madvare, mad_ret, opskrift, dessert)
 {
   "kærnemælkskoldskål" (kærnemælkskoldskålen, koldskål, koldskålen):.
   "is" (isen, isene):.
@@ -83,7 +83,7 @@
 }
 
 
-! define (spiseligt, madvare, mad_ret, opskrift, dessert, kage, bagværk)
+! define (spiselig, madvare, mad_ret, opskrift, dessert, kage, bagværk)
 {
   "lagkage" (lagkagen, lagkager, lagkagerne):.
   "flødeskumskage" (flødeskumskagen, flødeskumskager, flødeskumskagerne):.
@@ -96,7 +96,7 @@
   "kage" (kagen, kager, kagerne):.
 }
 
-! define (spiseligt, madvare, brød, bagværk)
+! define (spiselig, madvare, brød, bagværk)
 {
   "rugbrød" (rugbrødet):.
   "franskbrød" ("fransk brød"):.

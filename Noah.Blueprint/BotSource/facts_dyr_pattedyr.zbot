@@ -1,10 +1,4 @@
-# Hvor gammel bliver en krokodille
-# Hvor stor er en elefant
-# Hvad er en næsehornsbille
-# Hvor findes|bor der løver
-# Hvilke dyr bor i asien
-
-! define (type)
+! define (type, subst)
 {
   dyr:
     er: "er et dyr.".
@@ -14,11 +8,12 @@
 }
 
 
-! define (dyr, pattedyr)
+! define (dyr, pattedyr, subst)
 {
   "elefant" (elefanten, elefanter, elefanterne):
     intro: "Elefanten er et stort gråt dyr med en lang snabel.";
     dyreklasse: pattedyr;
+    føde: <plante>;
     levested: <Afrika>, <Indien>, <Asien>.
     
   "bæver" (bæveren, bævere, bæverne):
@@ -26,11 +21,13 @@
     
   "delfin" (delfinen, delfiner, delfinerne):
     intro: "Delfiner er havpattedyr, der minder meget om hvaler.";
+    føde: <fisk>;
     dyreklasse: pattedyr.
     
   "mus" (musen, mus, musene):
     intro: "Mus er små nuttede væsner, som udgør den største gnaverfamilie.";
-    dyreklasse: pattedyr.
+    dyreklasse: pattedyr;
+    føde: <plante>, <ost>, <insekt>, <rosin>.
     
   "rotte" (rotten, rotter, rotterne, "brun rotte", "sort rotte"):
     intro: "Rotter! Hæslige kræ, der lever i kloaker. Jeg bryder mig virkelig ikke om den slags dyr.";
@@ -38,6 +35,7 @@
     
   "hjort" (hjorten, hjorte, hjortene):
     intro: "Hjorte er en klasse af pattedyr (faktisk hovdyr) - herunder fx kronhjort, rådyr og dådyr.";
+    føde: <plante>;
     dyreklasse: pattedyr.
     
   "kronhjort" (kronhjorten, kronhjorte, kronhjortene, krondyr, krondyret, kronvildt, kronvildet):
