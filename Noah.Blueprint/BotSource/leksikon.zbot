@@ -56,7 +56,7 @@ LIMIT 5
 
 # hvad spiser mus
 >> hvad_verb_subst (verb:verb, subst:subst)
-! call RDF.Query("
+! call RDF.Single("
 SELECT ?subj ?svar ?aktivitet ?egenskab
 WHERE
 {
@@ -74,9 +74,9 @@ LIMIT 1
 ")
 # If the result has a topic associated to it, then try to set that as the current chat topic
 ! call RDF.TrySetTopic($_, "topic")
-: <result:{r | <r.svar> vil jeg mene}>
-: <result:{r | <r.svar>}>
-: <result:{r | Skulle det mon være <r.svar>?}>
+: <svar; format="UF"> vil jeg mene?
+: <svar; format="UF">
+: Skulle det mon være <svar>?
 {empty}: Hmmm.
 
 >> { intent = hvad_verb_subst }

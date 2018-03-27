@@ -1,9 +1,8 @@
 ﻿! define (verb)
 {
-  drikke (drikker, drak, drik):
-    egenskab: drikke.
+  drikke (drikker, drak, drik):.
   spise (spiser, spiste, spis):
-    egenskab: <P:føde>.
+    egenskab: <zp:føde>.
   løbe (løber, løb, løb):
     egenskab: hastighed.
   gå (går, gik, gå):.
