@@ -9,7 +9,7 @@ TestResult.xml
 UNUSED*
 UNUSED*/
 .vs/
-Logs/
+NoahWeb*.txt
 packages/
 TestResults/
 SciTE.session
