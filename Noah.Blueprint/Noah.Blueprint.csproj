@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="BotSource\concepter_basis.zbot" />
+    <None Include="BotSource\facts_dyr_andet.zbot" />
     <None Include="BotSource\facts_planter.zbot" />
     <None Include="BotSource\facts_verber.zbot" />
     <None Include="BotSource\intentioner_jeg.zbot" />
@@ -94,6 +95,7 @@
     <None Include="BotSource\leksikon.zbot" />
     <None Include="BotSource\leksikon_du_dig.zbot" />
     <None Include="BotSource\rdf.zbot" />
+    <None Include="BotSource\topic_mus.zbot" />
     <None Include="BotSource\vejret.zbot" />
     <None Include="BotSource\velkommen.zbot" />
     <None Include="packages.config" />

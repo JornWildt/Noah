@@ -9,26 +9,34 @@
   "krokodille" (krokodillen, krokodiller, krokodillerne):
     intro: "Krokodillen er et stort, kraftigt bygget, firbenlignende krybdyr med lang, flad snude og øjne, ører og næsebor placeret øverst på hovedet. Krokodillen svømmer godt og kan desuden bevæge sig på land.";
     dyreklasse: krybdyr;
+    føde: <dyr>;
     levested: <Afrika>, <Asien>, <Sydamerika>.
 
   "firben" (firbenet, firbenene):
+    føde: <insekt>;
     dyreklasse: krybdyr.
 
   "salamander" (salamanderen):
+    føde: <insekt>;
     dyreklasse: krybdyr.
 
   "frø" (frøen, frøer, frøerne, "brun frø", "grøn frø", "løvfrø", "klokkefrø"):
+    føde: <insekt>;
     dyreklasse: krybdyr.
 
   "tudse" (tudsen, tudser, tudserne):
+    føde: <insekt>;
     dyreklasse: krybdyr.
 
   "hugorm" (hugormen, hugorme, hugormene):
+    føde: <dyr>;
     dyreklasse: krybdyr.
 
   "slange" (slangen, slanger, slangerne):
+    føde: <dyr>;
     dyreklasse: krybdyr.
 
   "snog" (snogen, snoge, snogene):
+    føde: <dyr>;
     dyreklasse: krybdyr.
 }

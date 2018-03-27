@@ -41,9 +41,11 @@
     dyreklasse: fugl.
     
   "høg" (høgen, høge, høgene):
+    føde: <mus>, <fugl>;
     dyreklasse: fugl.
     
   "falk" (falken, falke, falkene, tårnfalk, tårnfalken, vandrefalk):
+    føde: <mus>, <fugl>;
     dyreklasse: fugl.
     
   "hejre" (hejren, hejrer, hejrerne, fiskehejre):
@@ -53,6 +55,7 @@
     dyreklasse: fugl.
     
   "ørn" (ørnen, ørne, ørnene, fiskeørn, kongeørn, havørn):
+    føde: <mus>, <fugl>;
     dyreklasse: fugl.
     
   "mejse" (mejsen, mejser, mejserne, blåmejse, spætmejse, sumpmejse, halemejse):
@@ -80,6 +83,7 @@
     dyreklasse: fugl.
     
   "ugle" (uglen, ugler, uglerne, kirkeugle, tårnugle, natugle, hornugle, slørugle, sneugle):
+    føde: <mus>;
     dyreklasse: fugl.
     
   "svane" (svanen, svaner, svanerne, knopsvane, sangsvane):

@@ -1,0 +1,4 @@
+﻿! define (fødetildyr)
+{
+  plante (planten, planter, planterne):.
+}

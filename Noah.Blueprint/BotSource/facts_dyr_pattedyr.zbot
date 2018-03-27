@@ -14,9 +14,12 @@
     intro: "Elefanten er et stort gråt dyr med en lang snabel.";
     dyreklasse: pattedyr;
     føde: <plante>;
+    vægt_tekst: "Meget! Elefanter er nogle store krabater.";
     levested: <Afrika>, <Indien>, <Asien>.
     
   "bæver" (bæveren, bævere, bæverne):
+    føde: <plante>;
+    vægt_tekst: "Bæveren er et mindre dyr på et par kilo.";
     dyreklasse: pattedyr.
     
   "delfin" (delfinen, delfiner, delfinerne):
@@ -27,10 +30,14 @@
   "mus" (musen, mus, musene):
     intro: "Mus er små nuttede væsner, som udgør den største gnaverfamilie.";
     dyreklasse: pattedyr;
-    føde: <plante>, <ost>, <insekt>, <rosin>.
+    vægt_tekst: "Mus er ikke så store.";
+    føde: <plante>, <ost>, <insekt>, <rosin>;
+    topic: "mus".
     
   "rotte" (rotten, rotter, rotterne, "brun rotte", "sort rotte"):
     intro: "Rotter! Hæslige kræ, der lever i kloaker. Jeg bryder mig virkelig ikke om den slags dyr.";
+    føde: <plante>, <insekt>, <kød>;
+    føde_tekst: "Rotter er altædende og spiser stort set alt.";
     dyreklasse: pattedyr.
     
   "hjort" (hjorten, hjorte, hjortene):
@@ -40,53 +47,69 @@
     
   "kronhjort" (kronhjorten, kronhjorte, kronhjortene, krondyr, krondyret, kronvildt, kronvildet):
     intro: "Kronhjorten er Danmarks største vildtlevende pattedyr - og et ualmindeligt smukt dyr, om jeg må sige det.";
+    føde: <plante>;
     dyreklasse: pattedyr.
     
   "rådyr" (rådyret, rådyr, rådyrene):
     intro: "Rådyret er den mindste hjorteart i Danmark.";
+    føde: <plante>;
     dyreklasse: pattedyr.
     
   "dådyr" (dådyret, dådyr, dådyrene):
     intro: "Dådyret er en middelstor hjort.";
+    føde: <plante>;
     dyreklasse: pattedyr.
     
   "elg" (elgen, elge, elgene):
     intro: "Et kæmpestort brunt dyr med gevir.";
+    føde: <plante>;
+    vægt_tekst: "Elge er møj store.";
     dyreklasse: pattedyr.
     
   "rensdyr" (rensdyret, rensdyr, rensdyrene):
     intro: "Julemandens kane du ved ;-)";
+    føde: <plante>;
     dyreklasse: pattedyr.
     
   "egern" (egernet, egern, egerne):
     intro: "Egernet er endnu en af disse små fascinerende gnavere.";
+    føde: <plante>, <nød>;
     dyreklasse: pattedyr.
     
   "flagermus" (flagermusen, flagermus, flagermusene):
     intro: "Flagermusen er et yderst interessant lille væsen. Det ligner en flyvende mus og finder dets føde med ultralyd.";
+    føde: <insekt>;
     dyreklasse: pattedyr.
     
   "sæl" (sælen, sæler, sælerne):
+    føde: <fisk>;
     dyreklasse: pattedyr.
     
   "grævling" (grævlingen, grævlinge, grævlinger):
+    føde: <insekt>;
     dyreklasse: pattedyr.
     
   "hare" (haren, harer, harerne):
+    føde: <plante>;
     dyreklasse: pattedyr.
     
   "muldvarp" (muldvarpen, muldvarpe, muldvarperne):
+    føde: <insekt>;
     dyreklasse: pattedyr.
     
   "pindsvin" (pindsvinet, pindsvinene):
+    føde: <plante>;
     dyreklasse: pattedyr.
     
   "odder" (odderen, oddere, odderne):
+    føde: <fisk>;
     dyreklasse: pattedyr.
     
   "ulv" (ulven, ulve, ulvene):
+    føde: <dyr>;
     dyreklasse: pattedyr.
     
   "kanin" (kaninen, kaniner, kaninerne):
+    føde: <plante>;
     dyreklasse: pattedyr.
 }

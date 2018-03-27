@@ -2,11 +2,17 @@
 {
   drikke (drikker, drak, drik):.
   spise (spiser, spiste, spis):
-    egenskab: <zp:føde>.
+    egenskab: <zp:føde>;
+    egenskab_tekst: <zp:føde_tekst>.
   løbe (løber, løb, løb):
-    egenskab: hastighed.
-  gå (går, gik, gå):.
+    egenskab: hastighed;
+    egenskab_tekst: hastighed_tekst.
   veje (vejer, vejede, vej):
-    egenskab: vægt.
+    egenskab: <zp:vægt>;
+    egenskab_tekst: vægt_tekst.
+  fylde (fylder, fyldte, fyld):
+    egenskab: <zp:volume>;
+    egenskab_tekst: volume_tekst.
   køre (kører, kørte, kør):.
+  gå (går, gik, gå):.
 }

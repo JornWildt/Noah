@@ -1,7 +1,7 @@
 ! define (type, subst)
 {
   fisk:
-    er: "er en fisk";
+    er: "er et dyr.";
     intro: "Fisk er noget der svømmer i havet. Jeg bryder mig ikke specielt om fisk".
 }
 

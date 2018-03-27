@@ -57,7 +57,7 @@ LIMIT 5
 # hvad spiser mus
 >> hvad_verb_subst (verb:verb, subst:subst)
 ! call RDF.Single("
-SELECT ?subj ?svar ?aktivitet ?egenskab
+SELECT ?subj ?svar ?aktivitet ?egenskab ?svar_tekst ?topic
 WHERE
 {
   ?subj zp:knownby ?subst.
@@ -65,6 +65,10 @@ WHERE
   ?aktivitet zp:egenskab ?egenskab.
   ?subj ?egenskab ?subj_egenskab.
   ?subj_egenskab rdfs:label ?svar
+  OPTIONAL {
+    ?aktivitet zp:egenskab_tekst ?egenskab_tekst.
+    ?subj ?egenskab_tekst ?svar_tekst.
+  }
   OPTIONAL {?subj zp:topic ?topic}
   FILTER (?subst = lcase(@subst))
   FILTER (?verb = lcase(@verb))
@@ -74,9 +78,9 @@ LIMIT 1
 ")
 # If the result has a topic associated to it, then try to set that as the current chat topic
 ! call RDF.TrySetTopic($_, "topic")
-: <svar; format="UF"> vil jeg mene?
-: <svar; format="UF">
-: Skulle det mon være <svar>?
+: <if(svar_tekst)><svar_tekst><else><svar; format="UF"> vil jeg mene?<endif>
+: <if(svar_tekst)><svar_tekst><else><svar; format="UF"><endif>
+: <if(svar_tekst)><svar_tekst><else>Skulle det mon være <svar>?<endif>
 {empty}: Hmmm.
 
 >> { intent = hvad_verb_subst }
