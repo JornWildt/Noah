@@ -1,4 +1,5 @@
 ﻿@model Noah.Web.Models.ChatModel
+@using Microsoft.AspNet.Identity
 
 @{
   ViewBag.Title = "Sig hej til Noah";
@@ -39,6 +40,7 @@
 <script>
   var ServerBaseUrl = "@Model.ServerUrl";
   var ServerToken = "@Model.ServerToken";
+  var UserName = "@Model.UserName";
 </script>
 <script src="~/Scripts/jquery.signalR-2.2.2.min.js"></script>
 <script src="@Model.ServerHubUrl"></script>

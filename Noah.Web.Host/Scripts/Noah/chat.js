@@ -49,7 +49,7 @@
 
 function AddMyChatEntry(data, input)
 {
-  AddChatEntry(data, "Jørn", new Date(), input, "right");
+  AddChatEntry(data, UserName, new Date(), input, "right");
 }
 
 

@@ -13,10 +13,18 @@ namespace Noah.Web.Controllers
       ChatModel model = new ChatModel
       {
         ServerUrl = WebAppSettings.ServerUrl.Value,
-        ServerToken = SecurityUtilities.GenerateServerToken(HttpContext.GetOwinContext().Authentication)
+        ServerToken = SecurityUtilities.GenerateServerToken(HttpContext.GetOwinContext().Authentication),
+        UserName = new MvcHtmlString(JavaScriptStringEncode(User.Identity.Name))
       };
 
       return View(model);
+    }
+
+    string JavaScriptStringEncode(string s)
+    {
+      if (s == null)
+        return s;
+      return s.Replace("\\", "\\\\").Replace("\"", "\\\"");
     }
   }
 }
