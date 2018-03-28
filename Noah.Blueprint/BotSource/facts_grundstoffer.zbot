@@ -1,0 +1,12 @@
+﻿! define (type)
+{
+  grundstof:
+    er: "er et kemisk stof som udelukkende består af én slags atomer - fx jern eller brint.".
+}
+
+! define (grundstof, materiale)
+{
+  guld (guldet):
+    vægt_tekst: "Guld er ganske tungt";
+    anvendelse: "Guld bruges til smykker, elektronik og meget andet".
+}

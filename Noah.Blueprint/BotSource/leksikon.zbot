@@ -63,8 +63,10 @@ WHERE
   ?subj zp:knownby ?subst.
   ?aktivitet zp:knownby ?verb.
   ?aktivitet zp:egenskab ?egenskab.
-  ?subj ?egenskab ?subj_egenskab.
-  ?subj_egenskab rdfs:label ?svar
+  OPTIONAL {
+    ?subj ?egenskab ?subj_egenskab.
+    ?subj_egenskab rdfs:label ?svar
+  }
   OPTIONAL {
     ?aktivitet zp:egenskab_tekst ?egenskab_tekst.
     ?subj ?egenskab_tekst ?svar_tekst.

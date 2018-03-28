@@ -6,13 +6,15 @@
     egenskab_tekst: <zp:føde_tekst>.
   løbe (løber, løb, løb):
     egenskab: hastighed;
-    egenskab_tekst: hastighed_tekst.
+    egenskab_tekst: <zp:hastighed_tekst>.
   veje (vejer, vejede, vej):
     egenskab: <zp:vægt>;
-    egenskab_tekst: vægt_tekst.
+    egenskab_tekst: <zp:vægt_tekst>.
   fylde (fylder, fyldte, fyld):
     egenskab: <zp:volume>;
-    egenskab_tekst: volume_tekst.
+    egenskab_tekst: <zp:volume_tekst>.
+  bruge (bruger, brugte, brug):
+    egenskab_tekst: <zp:anvendelse>.
   køre (kører, kørte, kør):.
   gå (går, gik, gå):.
 }
